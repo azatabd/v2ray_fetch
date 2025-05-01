@@ -8,27 +8,30 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.x
+          python-version: '3.x'
 
-      - name: Install Requests
+      - name: Install dependencies
         run: pip install requests
 
       - name: Run fetch script
         run: python fetch_subs.py
 
-      - name: Commit and Push Changes
+      - name: Commit and push changes
         run: |
-          git config --global user.name github-actions
-          git config --global user.email github-actions@github.com
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add combined.txt
           git commit -m "Update combined.txt" || echo "No changes to commit"
-          git push origin HEAD:${{ github.ref }}
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
