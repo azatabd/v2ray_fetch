@@ -60,9 +60,13 @@ The configurations are fetched, processed, and saved in different files based on
 All unique IP addresses from the configuration files are extracted and saved in the `ip_addresses.txt` file.
 
 ### Example entry in `ip_addresses.txt`:
+
 8.8.8.8
+
 192.168.1.1
+
 203.0.113.45
+
 ...
 
 These IP addresses are collected from the configuration links to provide an additional resource for users to analyze the IPs available in the V2Ray configurations.
