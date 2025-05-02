@@ -11,19 +11,55 @@ urls = [
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt"
 ]
 
-all_lines = []
+# Sets to store unique lines by protocol
+vless_lines = set()
+vmess_lines = set()
+ss_lines = set()
+trojan_lines = set()
+other_lines = set()
 
+# Fetch and categorize
 for url in urls:
     try:
         response = requests.get(url)
         response.raise_for_status()
         lines = response.text.splitlines()
-        filtered_lines = [line for line in lines if not line.strip().startswith("#")]
-        all_lines.extend(filtered_lines)
+        for line in lines:
+            clean = line.strip()
+            if not clean or clean.startswith("#"):
+                continue
+            if clean.startswith("vless://"):
+                vless_lines.add(clean)
+            elif clean.startswith("vmess://"):
+                vmess_lines.add(clean)
+            elif clean.startswith("ss://"):
+                ss_lines.add(clean)
+            elif clean.startswith("trojan://"):
+                trojan_lines.add(clean)
+            else:
+                other_lines.add(clean)
     except Exception as e:
-        print(f"Failed to fetch from {url}: {e}")
+        print(f"Error fetching from {url}: {e}")
 
-with open("combined.txt", "w", encoding="utf-8") as f:
-    f.write("\n".join(all_lines))
+# Write separate files
+def write_file(filename, lines):
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("\n".join(sorted(lines)))
+    print(f"{filename} written ({len(lines)} lines).")
 
-print("combined.txt updated successfully.")
+write_file("vless.txt", vless_lines)
+write_file("vmess.txt", vmess_lines)
+write_file("ss.txt", ss_lines)
+write_file("trojan.txt", trojan_lines)
+write_file("other.txt", other_lines)
+
+# Create combined.txt in desired order
+combined_lines = (
+    sorted(vless_lines) +
+    sorted(vmess_lines) +
+    sorted(ss_lines) +
+    sorted(trojan_lines) +
+    sorted(other_lines)
+)
+
+write_file("combined.txt", combined_lines)
