@@ -1,40 +1,42 @@
-name: Fetch Subscriptions
+name: Fetch V2Ray Configurations
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Every 6 hours
-  workflow_dispatch:       # Manual run support
+    - cron: "0 */6 * * *"  # Runs every 6 hours
+  push:
+    branches:
+      - main  # Runs when there is a push to the main branch
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
-  fetch:
+  fetch_configs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
 
-      - name: Install requests library
-        run: pip install requests
+    - name: Install dependencies
+      run: |
+        pip install requests
 
-      - name: Run fetch_subs.py
-        run: python fetch_subs.py
+    - name: Fetch V2Ray configurations
+      run: |
+        python fetch_subs.py  # Make sure the script is in the root of the repo
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+    - name: Pull latest changes from the remote repository
+      run: |
+        git pull origin main  # Pull the latest changes from the remote main branch
 
-      - name: Commit changes
-        run: |
-          git add *.txt
-          git commit -m "Update subscription files" || echo "No changes to commit"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Add, commit, and push changes
+      run: |
+        git add .  # Add all changes
+        git config user.name "github-actions"  # Set GitHub Actions name
+        git config user.email "github-actions@github.com"  # Set email
+        git commit -m "Update configuration files" || echo "No changes to commit"
+        git push origin main  # Push changes to the remote main branch
