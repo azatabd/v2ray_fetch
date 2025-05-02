@@ -4355,7 +4355,6 @@ trojan://f82fb954-06a1-4f0b-9180-17e07585b61f@104.21.23.162:443?allowInsecure=0&
 trojan://f82fb954-06a1-4f0b-9180-17e07585b61f@104.21.23.162:443?allowInsecure=0&sni=6tghjk.131.pp.ua#🔥Join+Telegram:@FarahVPN🟣
 trojan://f89f8229-37e8-4a5d-88ed-8b6bf3dd2db2@sla.cn.964e995b760.gogodns.xin:34014?allowInsecure=0&sni=q08m.vgraxiw73s.hasyaf.cn#22
 trojan://f89f8229-37e8-4a5d-88ed-8b6bf3dd2db2@sla.cn.964e995b760.gogodns.xin:34014?allowInsecure=0&sni=q08m.vgraxiw73s.hasyaf.cn#🔥Join+Telegram:@FarahVPN🟣
-trojan://f8b7cd5e-60c4-4e95-9b7b-d561ef4eed8c@104.21.112.1:443?security=tls&sni=yellow-cloud-d53f.vavovi6084.workers.dev&alpn=h3&fp=randomized&allowInsecure=1&type=ws&host=yellow-cloud-d53f.vavovi6084.workers.dev&path=%2F%3Fed%3D2560#[🇨🇦]t.me/ConfigsHub`
 trojan://f8b7cd5e-60c4-4e95-9b7b-d561ef4eed8c@104.21.112.1:443?security=tls&sni=yellow-cloud-d53f.vavovi6084.workers.dev&alpn=h3&fp=randomized&allowInsecure=1&type=ws&host=yellow-cloud-d53f.vavovi6084.workers.dev&path=%2F%3Fed%3D2560#🔥Join+Telegram:@FarahVPN🟣
 trojan://f8bb4ae1-2358-4a76-ab75-2a6bc94272d6@151.101.194.228:443?security=tls&sni=pscresearch.faculty.ucdavis.edu&type=ws&host=hgc6rct87gy.com#🔒 TR-WS-TLS 🇺🇸 US-151.101.194.228:443
 trojan://f8bb4ae1-2358-4a76-ab75-2a6bc94272d6@151.101.194.228:443?security=tls&sni=pscresearch.faculty.ucdavis.edu&type=ws&host=hgc6rct87gy.com#🔥Join+Telegram:@FarahVPN🟣
