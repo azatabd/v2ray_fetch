@@ -79,7 +79,7 @@ This repository is automatically updated every 6 hours to fetch the latest confi
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/v2ray_fetch.git
+    git clone https://github.com/azatabd/v2ray_fetch.git
     cd v2ray_fetch
     ```
 
