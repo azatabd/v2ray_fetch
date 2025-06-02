@@ -5,8 +5,8 @@ on:
     - cron: "0 */6 * * *"  # Runs every 6 hours
   push:
     branches:
-      - main  # Runs when there is a push to the main branch
-  workflow_dispatch:  # Allows manual triggering
+      - main
+  workflow_dispatch:
 
 jobs:
   fetch_configs:
@@ -19,24 +19,26 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: 3.9
+        python-version: 3.11  # updated version for better compatibility
 
     - name: Install dependencies
       run: |
         pip install requests
 
-    - name: Fetch V2Ray configurations
-      run: |
-        python fetch_subs.py  # Make sure the script is in the root of the repo
+    - name: Run fetch script
+      run: python fetch_subs.py  # Ensure your filename matches
 
-    - name: Pull latest changes from the remote repository
+    - name: Configure Git
       run: |
-        git pull origin main  # Pull the latest changes from the remote main branch
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
 
-    - name: Add, commit, and push changes
+    - name: Pull latest changes to avoid conflicts
       run: |
-        git add .  # Add all changes
-        git config user.name "github-actions"  # Set GitHub Actions name
-        git config user.email "github-actions@github.com"  # Set email
+        git pull --rebase origin main
+
+    - name: Commit and push changes
+      run: |
+        git add .
         git commit -m "Update configuration files" || echo "No changes to commit"
-        git push origin main  # Push changes to the remote main branch
+        git push origin main
