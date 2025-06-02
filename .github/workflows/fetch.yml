@@ -2,7 +2,7 @@ name: Fetch V2Ray Configurations
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Runs every 6 hours
+    - cron: "0 */6 * * *"
   push:
     branches:
       - main
@@ -15,30 +15,28 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        persist-credentials: true
+        fetch-depth: 0  # Ensures full history is available
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: 3.11  # updated version for better compatibility
+        python-version: 3.11
 
     - name: Install dependencies
-      run: |
-        pip install requests
+      run: pip install requests
 
     - name: Run fetch script
-      run: python fetch_subs.py  # Ensure your filename matches
+      run: python fetch_subs.py
 
     - name: Configure Git
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
 
-    - name: Pull latest changes to avoid conflicts
-      run: |
-        git pull --rebase origin main
-
     - name: Commit and push changes
       run: |
         git add .
-        git commit -m "Update configuration files" || echo "No changes to commit"
+        git diff --quiet && echo "No changes to commit" || git commit -m "Update configuration files"
         git push origin main
