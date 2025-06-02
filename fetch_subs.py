@@ -23,6 +23,9 @@ blocked_domains = [
     "applegrafix.com",
     "*.applegrafix.com",
     "*.ads.net",
+    "*.ssvpnapp.win",
+    "*.yangon.club",
+    "*.varzesh360.co",
 ]
 
 # Regex to match IPv4 addresses
