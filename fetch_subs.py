@@ -33,6 +33,28 @@ blocked_domains = [
     "*.xpmc.cc",
     "*.plebai.net",
 ]
+# Explicitly blocked IPs (in addition to private, loopback, etc.)
+explicitly_blocked_ips = {
+    "1.1.1.1",
+    "1.0.0.1",
+    "8.8.8.8",
+    "8.8.4.4",
+    "127.0.0.1",
+    "0.0.0.0"
+}
+
+def is_blocked_ip(ip):
+    try:
+        if ip in explicitly_blocked_ips:
+            return True
+        ip_obj = ipaddress.ip_address(ip)
+        if ip_obj.version == 6:
+            return True
+        if ip_obj.is_private or ip_obj.is_loopback or ip_obj.is_reserved:
+            return True
+    except ValueError:
+        return True  # Malformed IPs are treated as blocked
+    return False
 
 # Regex to match IPv4 addresses
 ip_pattern = re.compile(r'((?:\d{1,3}\.){3}\d{1,3})')
