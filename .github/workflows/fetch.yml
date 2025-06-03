@@ -1,42 +1,33 @@
-name: Fetch V2Ray Configurations
+name: Scheduled Proxy Fetch
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+    - cron: "0 */6 * * *"  # Every 6 hours
+  workflow_dispatch:      # Allow manual run
 
 jobs:
-  fetch_configs:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        persist-credentials: true
-        fetch-depth: 0  # Ensures full history is available
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.11
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    - name: Install dependencies
-      run: pip install requests
+      - name: Install requirements (if needed)
+        run: pip install requests
 
-    - name: Run fetch script
-      run: python fetch_subs.py
+      - name: Run the script
+        run: python fetch_subs.py
 
-    - name: Configure Git
-      run: |
-        git config user.name "github-actions"
-        git config user.email "github-actions@github.com"
-
-    - name: Commit and push changes
-      run: |
-        git add .
-        git diff --quiet && echo "No changes to commit" || git commit -m "Update configuration files"
-        git push origin main
+      - name: Commit and push results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add *.txt
+          git commit -m "🔄 Auto-update proxies [bot]" || echo "No changes to commit"
+          git push
