@@ -1,4 +1,4 @@
-name: Scheduled Proxy Fetch
+name: Fetch V2Ray Configurations
 
 on:
   schedule:
