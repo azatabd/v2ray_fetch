@@ -24,7 +24,7 @@ blocked_domains = [
     "*.varzesh360.co", "*.slashdevslashnetslashtun.net", "*.samanehha.co", "*.gym0boy.com",
     "*.xpmc.cc", "*.plebai.net", "*.zula.ir", "*.ucdavis.edu", "*.wlftest.xyz", "*.parsvds.ir",
     "*.webredirect.org", "*.cataba.ir", "*.iraniantim.ir", "*.soskom.ir", "*.hosting-ip.com",
-    "*.cloudflare.com", "*.speedtest.net", "*.rahavard365.co", "*.theatlantic.com", "*.threea.org", "*.rahavard365.co"
+    "*.cloudflare.com", "*.speedtest.net", "*.rahavard365.co", "*.theatlantic.com", "*.threea.org"
 ]
 
 explicitly_blocked_ips = {
@@ -93,6 +93,7 @@ for url in urls:
                 except ValueError:
                     pass
 
+            # ✅ Only add line AFTER passing all domain/IP filters
             all_lines.add(line)
 
             for ip in ip_pattern.findall(line):
