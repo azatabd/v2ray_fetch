@@ -1,3 +1,5 @@
+# fetch_subs.py
+
 import requests
 import re
 import fnmatch
@@ -6,7 +8,6 @@ import json
 from urllib.parse import urlparse
 import ipaddress
 
-# URLs to fetch configuration files from
 urls = [
     "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub1.txt",
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
@@ -18,89 +19,38 @@ urls = [
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt"
 ]
 
-# Wildcard patterns for blocked domains
 blocked_domains = [
-    "applegrafix.com",
-    "*.applegrafix.com",
-    "*.ads.net",
-    "*.ssvpnapp.win",
-    "*.yangon.club",
-    "*.varzesh360.co",
-    "*.slashdevslashnetslashtun.net",
-    "*.varzesh360.co",
-    "*.samanehha.co",
-    "*.gym0boy.com",
-    "*.xpmc.cc",
-    "*.plebai.net",
-    "*.zula.ir",
-    "*.ucdavis.edu",
-    "*.wlftest.xyz",
-    "*.parsvds.ir",
-    "*.webredirect.org",
-    "*.cataba.ir",
-    "*.iraniantim.ir",
-    "*.soskom.ir",
-    "*.hosting-ip.com",
+    "applegrafix.com", "*.applegrafix.com", "*.ads.net", "*.ssvpnapp.win", "*.yangon.club",
+    "*.varzesh360.co", "*.slashdevslashnetslashtun.net", "*.samanehha.co", "*.gym0boy.com",
+    "*.xpmc.cc", "*.plebai.net", "*.zula.ir", "*.ucdavis.edu", "*.wlftest.xyz", "*.parsvds.ir",
+    "*.webredirect.org", "*.cataba.ir", "*.iraniantim.ir", "*.soskom.ir", "*.hosting-ip.com",
     "*.cloudflare.com"
 ]
-# Explicitly blocked IPs (in addition to private, loopback, etc.)
+
 explicitly_blocked_ips = {
-    "1.1.1.1",
-    "1.0.0.1",
-    "8.8.8.8",
-    "8.8.4.4",
-    "127.0.0.1",
-    "0.0.0.0"
+    "1.1.1.1", "1.0.0.1", "8.8.8.8", "8.8.4.4", "127.0.0.1", "0.0.0.0"
 }
+
+ip_pattern = re.compile(r'((?:\d{1,3}\.){3}\d{1,3})')
+
+all_lines = set()
+ip_addresses = set()
+protocols = {'vless': [], 'vmess': [], 'ss': [], 'trojan': [], 'other': []}
+
+def is_blocked_domain(domain):
+    if not domain:
+        return False
+    domain = domain.lower()
+    return any(fnmatch.fnmatch(domain, pattern) for pattern in blocked_domains)
 
 def is_blocked_ip(ip):
     try:
         if ip in explicitly_blocked_ips:
             return True
         ip_obj = ipaddress.ip_address(ip)
-        if ip_obj.version == 6:
-            return True
-        if ip_obj.is_private or ip_obj.is_loopback or ip_obj.is_reserved:
-            return True
+        return ip_obj.version == 6 or ip_obj.is_private or ip_obj.is_loopback or ip_obj.is_reserved
     except ValueError:
-        return True  # Malformed IPs are treated as blocked
-    return False
-
-# Regex to match IPv4 addresses
-ip_pattern = re.compile(r'((?:\d{1,3}\.){3}\d{1,3})')
-
-# Set to store unique config lines and IPs
-all_lines = set()
-ip_addresses = set()
-
-# Categorized configs
-protocols = {
-    'vless': [],
-    'vmess': [],
-    'ss': [],
-    'trojan': [],
-    'other': []
-}
-
-def is_blocked_domain(domain):
-    if not domain:
-        return False
-    domain = domain.lower()
-    for pattern in blocked_domains:
-        if fnmatch.fnmatch(domain, pattern):
-            return True
-    return False
-
-def is_blocked_ip(ip):
-    try:
-        ip_obj = ipaddress.ip_address(ip)
-        if ip_obj.version == 6:
-            return True
-        if ip_obj.is_private or ip_obj.is_loopback or ip_obj.is_reserved:
-            return True
-    except ValueError:
-        return True  # Malformed IPs are treated as blocked
-    return False
+        return True
 
 def extract_host(config_line):
     try:
@@ -118,10 +68,9 @@ def extract_host(config_line):
     return None
 
 def contains_ipv6(text):
-    ipv6_pattern = re.compile(r'([a-fA-F0-9:]+:+)+[a-fA-F0-9]+')
-    return bool(ipv6_pattern.search(text))
+    return bool(re.search(r'([a-fA-F0-9:]+:+)+[a-fA-F0-9]+', text))
 
-# Process all URLs
+# Process each URL
 for url in urls:
     try:
         response = requests.get(url)
@@ -130,29 +79,22 @@ for url in urls:
 
         for line in lines:
             line = line.strip()
-            if not line or line.startswith("#"):
+            if not line or line.startswith("#") or contains_ipv6(line):
                 continue
-
-            if contains_ipv6(line):
-                continue  # Skip configs with IPv6
 
             host = extract_host(line)
             if host:
-                if contains_ipv6(host):
-                    continue
-                if is_blocked_domain(host):
+                if contains_ipv6(host) or is_blocked_domain(host):
                     continue
                 try:
                     ip = ipaddress.ip_address(host)
                     if is_blocked_ip(str(ip)):
                         continue
                 except ValueError:
-                    pass  # Host is not an IP, it's a domain
+                    pass
 
-            # Add to unique lines
             all_lines.add(line)
 
-            # Extract valid IPs
             for ip in ip_pattern.findall(line):
                 if not is_blocked_ip(ip):
                     ip_addresses.add(ip)
@@ -160,7 +102,7 @@ for url in urls:
     except Exception as e:
         print(f"Error fetching {url}: {e}")
 
-# Categorize by protocol
+# Categorize lines
 for line in sorted(all_lines):
     if line.startswith("vless://"):
         protocols['vless'].append(line)
@@ -173,18 +115,16 @@ for line in sorted(all_lines):
     else:
         protocols['other'].append(line)
 
-# Save all configs
-with open("combined.txt", "w") as f:
-    for group in ['vless', 'vmess', 'ss', 'trojan', 'other']:
-        f.write("\n".join(protocols[group]) + "\n")
-
-# Save per-protocol files
+# Save to output files
 for proto, lines in protocols.items():
     with open(f"{proto}.txt", "w") as f:
         f.write("\n".join(lines) + "\n")
 
-# Save public IPv4s
+with open("combined.txt", "w") as f:
+    for proto in ['vless', 'vmess', 'ss', 'trojan', 'other']:
+        f.write("\n".join(protocols[proto]) + "\n")
+
 with open("ip_addresses.txt", "w") as f:
     f.write("\n".join(sorted(ip_addresses)) + "\n")
 
-print(f"Extracted {len(ip_addresses)} unique IPv4 addresses.")
+print(f"✅ Extracted {len(ip_addresses)} unique IPv4 addresses.")
