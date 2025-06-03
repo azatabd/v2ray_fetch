@@ -32,6 +32,16 @@ blocked_domains = [
     "*.gym0boy.com",
     "*.xpmc.cc",
     "*.plebai.net",
+    "*.zula.ir",
+    "*.ucdavis.edu",
+    "*.wlftest.xyz",
+    "*.parsvds.ir",
+    "*.webredirect.org",
+    "*.cataba.ir",
+    "*.iraniantim.ir",
+    "*.soskom.ir",
+    "*.hosting-ip.com",
+    "*.cloudflare.com"
 ]
 # Explicitly blocked IPs (in addition to private, loopback, etc.)
 explicitly_blocked_ips = {
