@@ -26,6 +26,12 @@ blocked_domains = [
     "*.ssvpnapp.win",
     "*.yangon.club",
     "*.varzesh360.co",
+    "*.slashdevslashnetslashtun.net",
+    "*.varzesh360.co",
+    "*.samanehha.co",
+    "*.gym0boy.com",
+    "*.xpmc.cc",
+    "*.plebai.net",
 ]
 
 # Regex to match IPv4 addresses
