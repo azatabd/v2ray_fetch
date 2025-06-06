@@ -1,5 +1,3 @@
-# fetch_subs.py
-
 import requests
 import re
 import fnmatch
@@ -25,7 +23,12 @@ blocked_domains = [
     "*.varzesh360.co", "*.slashdevslashnetslashtun.net", "*.samanehha.co", "*.gym0boy.com",
     "*.xpmc.cc", "*.plebai.net", "*.zula.ir", "*.ucdavis.edu", "*.wlftest.xyz", "*.parsvds.ir",
     "*.webredirect.org", "*.cataba.ir", "*.iraniantim.ir", "*.soskom.ir", "*.hosting-ip.com",
-    "*.cloudflare.com", "*.speedtest.net", "*.rahavard365.co", "*.theatlantic.com", "*.threea.org", "*.discord.cc"
+    "*.cloudflare.com", "*.speedtest.net", "*.rahavard365.co", "*.theatlantic.com",
+    "*.threea.org", "*.discord.cc", "*.samanehha.co","*.abvpn.ru", "*.xiaomi-api.xyz", "*.felafel.org", "*.vpnbook.com", "*.turkiye6.xyz",
+    "*.namasha.co", "*.webramz.co", "*.gosdk.xyz", "*.stark-industries.solutions", "*.test3.net", "*.bolab.net", "*.mjt000.com",
+    "xcvg65.999815.xyz", "*.facai2024.com", "*.meiziba5566.com", "*.heduian.link", "*fly.dev", "*.sh-cloudflare.sbs", "*.irvideo.cfd",
+    "*.lrzdx.uk", "*.mcloudservice.site", "*.v2ray.motorcycles", "*.comnpmjs.com", "huffingtonpost.es", "iranserver.com", "*.ddns.net",
+    "*.cloudupdate.ir", ""
 ]
 
 explicitly_blocked_ips = {
@@ -74,7 +77,7 @@ def contains_ipv6(text):
 # Process each URL
 for url in urls:
     try:
-        response = requests.get(url)
+        response = requests.get(url, timeout=15)
         response.raise_for_status()
         lines = response.text.strip().splitlines()
 
@@ -82,6 +85,11 @@ for url in urls:
             line = line.strip()
             if not line or line.startswith("#") or contains_ipv6(line):
                 continue
+
+            # ✅ Extract raw IPv4s regardless of domain status
+            for ip in ip_pattern.findall(line):
+                if not is_blocked_ip(ip):
+                    ip_addresses.add(ip)
 
             host = extract_host(line)
             if host:
@@ -94,12 +102,8 @@ for url in urls:
                 except ValueError:
                     pass
 
-            # ✅ Only add line AFTER passing all domain/IP filters
+            # ✅ Only add line if not blocked
             all_lines.add(line)
-
-            for ip in ip_pattern.findall(line):
-                if not is_blocked_ip(ip):
-                    ip_addresses.add(ip)
 
     except Exception as e:
         print(f"Error fetching {url}: {e}")
