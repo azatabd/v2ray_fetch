@@ -1,68 +1,57 @@
-trojan://03573f46-e944-11eb-a8bf-f23c91cfbbc9@864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com:27235?allowInsecure=0#%E5%85%8D%E8%B4%B9VPN%EF%BC%9Ahttps%3A%2F%2Ftt.vg%2FgwaAy
-trojan://03573f46-e944-11eb-a8bf-f23c91cfbbc9@864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com:27235?allowInsecure=0#%E6%97%A5%E6%9C%9F%EF%BC%9A07-03
-trojan://03573f46-e944-11eb-a8bf-f23c91cfbbc9@864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com:27235?allowInsecure=0#%E7%94%B5%E6%8A%A5%E7%BE%A4%EF%BC%9Ahttps%3A%2F%2Ft.me%2Fvvkj11
-trojan://03573f46-e944-11eb-a8bf-f23c91cfbbc9@864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com:27235?allowInsecure=0#⚡ b2n.ir/v2ray-configs | 794
-trojan://03573f46-e944-11eb-a8bf-f23c91cfbbc9@864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com:27235?allowInsecure=0#⚡ b2n.ir/v2ray-configs | 871
-trojan://03573f46-e944-11eb-a8bf-f23c91cfbbc9@864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com:27235?allowInsecure=0#⚡ b2n.ir/v2ray-configs | 997
-trojan://03573f46-e944-11eb-a8bf-f23c91cfbbc9@864a90fc-sytz40-tee612-2r82.cm5.cnkuaishou.com:27235?allowInsecure=0#🔥Join+Telegram:@Farah_VPN🟣
-trojan://0de37cdc-abff-11ef-b7c6-f23c913c8d2b@57100505-sytz40-t389l0-1rsuw.cm5.cnkuaishou.com:27233?sni=57100505-sytz40-t389l0-1rsuw.cm5.cnkuaishou.com#%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82+%E7%A7%BB%E5%8A%A8
-trojan://0de37cdc-abff-11ef-b7c6-f23c913c8d2b@57100505-sytz40-t389l0-1rsuw.cm5.cnkuaishou.com:27233?sni=57100505-sytz40-t389l0-1rsuw.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
-trojan://18304160-03d4-4c55-95c1-586c0a5f3a0a@ap.liangyuandian.top:443?security=tls#⚡ b2n.ir/v2ray-configs | 636
-trojan://192a5fc9-2baa-4043-8655-d840d370cb86@jp.liangyuandian.top:443?security=tls#⚡ b2n.ir/v2ray-configs | 920
-trojan://1957909a-4f2a-4d9c-99ad-119d45f052c1@v01.gutingting.com:30002?security=tls&sni=v2tw01.fuqiangren.com#⚡ b2n.ir/v2ray-configs | 118
+trojan://167db97c-ee01-11ef-b737-f23c91cfbbc9@8e3f9f42-sxaf40-tasors-1tdqt.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=8e3f9f42-sxaf40-tasors-1tdqt.cm5.cnkuaishou.com#%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82+%E7%A7%BB%E5%8A%A8
+trojan://167db97c-ee01-11ef-b737-f23c91cfbbc9@8e3f9f42-sxaf40-tasors-1tdqt.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=8e3f9f42-sxaf40-tasors-1tdqt.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://167db97c-ee01-11ef-b737-f23c91cfbbc9@8e3f9f42-sxaf40-tasors-1tdqt.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=8e3f9f42-sxaf40-tasors-1tdqt.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://1PvCIrxP6l@ru2.asc-sam.ir:8443?type=tcp&path=/@NoForcedHeavan@NoForcedHeavan@NoForcedHeavan@NoForcedHeavan@NoForcedHeavan&host=ru2.asc-sam.ir&headerType=http&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
 trojan://1a8EBLaDBL@ru2.asc-sam.ir:443?type=xhttp&path=/@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven&host=&mode=auto&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
-trojan://1bf16b43-0ad5-4512-a0e8-34bb8966278e@ca.stablize.top:443?security=tls#⚡ b2n.ir/v2ray-configs | 250
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@hk03.trojanyyds.xyz:443?security=tls&amp;sni=hk03.trojanyyds.xyz&amp;type=tcp&amp;headerType=none#%E5%85%B3%E6%B3%A8%E9%A2%91%E9%81%93https%3A%2F%2Ft.me%2Fmftizi
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@hk03.trojanyyds.xyz:443?security=tls&amp;sni=hk03.trojanyyds.xyz&amp;type=tcp&amp;headerType=none#🔥Join+Telegram:@Farah_VPN🟣
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@sg02.trojanyyds.xyz:443?security=tls&amp;type=tcp&amp;headerType=none#%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0%E8%8A%82%E7%82%B9%40mftizi
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@sg02.trojanyyds.xyz:443?security=tls&amp;type=tcp&amp;headerType=none#🔥Join+Telegram:@Farah_VPN🟣
-trojan://265f092f-418b-30c9-a479-4800fd44dd19mielink@kaizen-tw-2.mielink-dns2.com:443?security=tls&sni=paydiu.com#⚡ b2n.ir/v2ray-configs | 60
 trojan://2b57ec48-0da4-11ef-8f35-f23c913c8d2b@916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com:27235?allowInsecure=0#%F0%9F%87%B8%F0%9F%87%AC%20%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%EF%BC%8C%E8%AF%B7%E5%8A%A0%E7%94%B5%E6%8A%A5%E7%BE%A4%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94
-trojan://2b57ec48-0da4-11ef-8f35-f23c913c8d2b@916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com:27235?allowInsecure=0#_%E4%B8%AD%E5%9B%BD
-trojan://2b57ec48-0da4-11ef-8f35-f23c913c8d2b@916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com:27235?allowInsecure=0#⚡ b2n.ir/v2ray-configs | 764
 trojan://2b57ec48-0da4-11ef-8f35-f23c913c8d2b@916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com:27235?allowInsecure=0#🔥Join+Telegram:@Farah_VPN🟣
+trojan://2c605663-b89a-5734-a9d6-97d4743d72cf@dozo01.flztjc.top:8313?allowInsecure=0&sni=hk-13-568.flztjc.net#_%E4%B8%AD%E5%9B%BD
+trojan://2c605663-b89a-5734-a9d6-97d4743d72cf@dozo01.flztjc.top:8313?allowInsecure=0&sni=hk-13-568.flztjc.net#🔥Join+Telegram:@Farah_VPN🟣
 trojan://344ObcMIAb@ru2.asc-sam.ir:443?type=xhttp&path=/@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven&host=&mode=auto&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
-trojan://415b770f-20de-4be4-a3c1-8376da50a1b7@wb.kaiqsz.com:18147?allowInsecure=0&sni=mm2.redapricotcloud.com#@Hope_Net-join-us-on-Telegram
-trojan://415b770f-20de-4be4-a3c1-8376da50a1b7@wb.kaiqsz.com:18147?allowInsecure=0&sni=mm2.redapricotcloud.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://4ea1d07c-41c2-42b5-954d-414fee051856@df.xiguajiasu.xyz:46002#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD_15
 trojan://4ea1d07c-41c2-42b5-954d-414fee051856@df.xiguajiasu.xyz:46002#🔥Join+Telegram:@Farah_VPN🟣
-trojan://55f2afab-bc41-4231-b725-76bef15c3cf7@lm.kaiqsz.com:16783?allowInsecure=0&sni=mmbiz15.redapricotcloud.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B9%9B%E6%B1%9F%E5%B8%82%20%E7%A7%BB%E5%8A%A8
-trojan://55f2afab-bc41-4231-b725-76bef15c3cf7@lm.kaiqsz.com:16783?allowInsecure=0&sni=mmbiz15.redapricotcloud.com#⚡ b2n.ir/v2ray-configs | 631
-trojan://55f2afab-bc41-4231-b725-76bef15c3cf7@lm.kaiqsz.com:16783?allowInsecure=0&sni=mmbiz15.redapricotcloud.com#🔥Join+Telegram:@Farah_VPN🟣
-trojan://55f2afab-bc41-4231-b725-76bef15c3cf7@lm.kaiqsz.com:34183?allowInsecure=0&sni=mmbiz16.redapricotcloud.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B9%9B%E6%B1%9F%E5%B8%82%20%E7%A7%BB%E5%8A%A8
-trojan://55f2afab-bc41-4231-b725-76bef15c3cf7@lm.kaiqsz.com:34183?allowInsecure=0&sni=mmbiz16.redapricotcloud.com#🔥Join+Telegram:@Farah_VPN🟣
-trojan://55f2afab-bc41-4231-b725-76bef15c3cf7@lm.kaiqsz.com:54031?allowInsecure=0&sni=mmbiz10.redapricotcloud.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B9%9B%E6%B1%9F%E5%B8%82%20%E7%A7%BB%E5%8A%A8
-trojan://55f2afab-bc41-4231-b725-76bef15c3cf7@lm.kaiqsz.com:54031?allowInsecure=0&sni=mmbiz10.redapricotcloud.com#🔥Join+Telegram:@Farah_VPN🟣
-trojan://55f2afab-bc41-4231-b725-76bef15c3cf7@lm.kaiqsz.com:55799?allowInsecure=0&sni=mmbiz10.redapricotcloud.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B9%9B%E6%B1%9F%E5%B8%82%20%E7%A7%BB%E5%8A%A8
-trojan://55f2afab-bc41-4231-b725-76bef15c3cf7@lm.kaiqsz.com:55799?allowInsecure=0&sni=mmbiz10.redapricotcloud.com#🔥Join+Telegram:@Farah_VPN🟣
-trojan://58dcd460-65df-47b1-b062-517df30bef29@jp.liangyuandian.top:443?security=tls#⚡ b2n.ir/v2ray-configs | 455
 trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?security=tls&amp;sni=mmbiz10.redapricotcloud.com&amp;type=tcp&amp;headerType=none#%E5%85%8D%E8%B4%B9%E6%A2%AF%E5%AD%90https%3A%2F%2Ft.me%2Fmftizi
 trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?security=tls&amp;sni=mmbiz10.redapricotcloud.com&amp;type=tcp&amp;headerType=none#🔥Join+Telegram:@Farah_VPN🟣
+trojan://5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b@0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com#%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82+%E7%A7%BB%E5%8A%A8
+trojan://5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b@0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b@0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://607d365e-7ea1-11ee-95e9-f23c913c8d2b@096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com:27233?#%E6%97%A5%E6%9C%AC5%7C%40ripaojiedian
-trojan://607d365e-7ea1-11ee-95e9-f23c913c8d2b@096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com:27233?#⚡ b2n.ir/v2ray-configs | 355
-trojan://607d365e-7ea1-11ee-95e9-f23c913c8d2b@096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com:27233?#⚡ b2n.ir/v2ray-configs | 359
 trojan://607d365e-7ea1-11ee-95e9-f23c913c8d2b@096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com:27233?#🔥Join+Telegram:@Farah_VPN🟣
 trojan://607d365e-7ea1-11ee-95e9-f23c913c8d2b@096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com:27233?allowInsecure=0#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC5%7C%40ripaojiedian
 trojan://607d365e-7ea1-11ee-95e9-f23c913c8d2b@096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com:27233?allowInsecure=0#🔥Join+Telegram:@Farah_VPN🟣
 trojan://607d365e-7ea1-11ee-95e9-f23c913c8d2b@096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC5%7C%40ripaojiedian
-trojan://607d365e-7ea1-11ee-95e9-f23c913c8d2b@096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com#⚡ b2n.ir/v2ray-configs | 646
 trojan://607d365e-7ea1-11ee-95e9-f23c913c8d2b@096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://63db084a-e2ce-46db-9dd6-d4ed2c3d2663@sg01.freeflyingcloud.xyz:35702?sni=sg01.freeflyingcloud.xyz#%F0%9F%87%B8%F0%9F%87%AC_SG_%E6%96%B0%E5%8A%A0%E5%9D%A1_5
 trojan://63db084a-e2ce-46db-9dd6-d4ed2c3d2663@sg01.freeflyingcloud.xyz:35702?sni=sg01.freeflyingcloud.xyz#🔥Join+Telegram:@Farah_VPN🟣
+trojan://6857f1bc-f27b-11ea-87ad-f23c913c8d2b@ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com#%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82+%E7%A7%BB%E5%8A%A8
+trojan://6857f1bc-f27b-11ea-87ad-f23c913c8d2b@ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://6857f1bc-f27b-11ea-87ad-f23c913c8d2b@ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
+trojan://6857f1bc-f27b-11ea-87ad-f23c913c8d2b@ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com:27235?allowInsecure=0&sni=ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com#%E7%94%B5%E6%8A%A5%E7%BE%A4%EF%BC%9Ahttps%3A%2F%2Ft.me%2Fvvkj11
+trojan://6857f1bc-f27b-11ea-87ad-f23c913c8d2b@ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com:27235?allowInsecure=0&sni=ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82%20%E7%A7%BB%E5%8A%A8
+trojan://6857f1bc-f27b-11ea-87ad-f23c913c8d2b@ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com:27235?allowInsecure=0&sni=ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
+trojan://7699767c-44ae-11ef-80c7-f23c91cfbbc9@f32dc0f0-sx6ps0-t4yfev-1rz31.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=f32dc0f0-sx6ps0-t4yfev-1rz31.cm5.cnkuaishou.com#%E5%85%8D%E8%B4%B9VPN%EF%BC%9Ahttps%3A%2F%2Ftt.vg%2FgwaAy
+trojan://7699767c-44ae-11ef-80c7-f23c91cfbbc9@f32dc0f0-sx6ps0-t4yfev-1rz31.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=f32dc0f0-sx6ps0-t4yfev-1rz31.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://77G4g4apO0@x8-sweden-amazon-v2-cf9yw.devefun.org:1935?security=tls&headerType=none&type=tcp&sni=x8-sweden-amazon-v2-cf9yw.devefun.org#🔥Join+Telegram:@Farah_VPN🟣
 trojan://7c58bf11-9175-46d1-accf-e1883bf0d5f8@svip.88de.hongxingdl.vip:28721?security=tls&amp;sni=mmbiz1.redapricotcloud.com&amp;type=tcp&amp;headerType=none#%E4%B8%8D%E5%AE%9A%E6%9C%9F%E6%8A%BD%E5%A5%96https%3A%2F%2Ft.me%2Fmftizi
 trojan://7c58bf11-9175-46d1-accf-e1883bf0d5f8@svip.88de.hongxingdl.vip:28721?security=tls&amp;sni=mmbiz1.redapricotcloud.com&amp;type=tcp&amp;headerType=none#🔥Join+Telegram:@Farah_VPN🟣
-trojan://7d78b611-d26a-3828-ac5a-5f5ed29efeda@gy.58n.net:20300?allowInsecure=1&sni=z300.hongkongnode.top#@Hope_Net-join-us-on-Telegram`
-trojan://7d78b611-d26a-3828-ac5a-5f5ed29efeda@gy.58n.net:20300?allowInsecure=1&sni=z300.hongkongnode.top#🔥Join+Telegram:@Farah_VPN🟣
-trojan://8800c518-e68a-4441-a45c-cd67855784c8@hk1.sanfen001.pics:443?security=tls&sni=hk1.sanfen001.pics#⚡ b2n.ir/v2ray-configs | 651
-trojan://8800c518-e68a-4441-a45c-cd67855784c8@hk2.sanfen001.pics:443?security=tls#⚡ b2n.ir/v2ray-configs | 287
+trojan://7cd29891-fe78-4f8f-8844-abb31b9d9a75@nb_ae7a7.kaiqsz.com:18147?sni=mm2.redapricotcloud.com#@Hope_Net-join-us-on-Telegram
+trojan://7cd29891-fe78-4f8f-8844-abb31b9d9a75@nb_ae7a7.kaiqsz.com:18147?sni=mm2.redapricotcloud.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://8815622e-7598-11ef-a01c-f23c913c8d2b@6fa2a6f6-sytz40-sz578n-1pw2y.cm5.cnkuaishou.com:21233?allowInsecure=0&sni=6fa2a6f6-sytz40-sz578n-1pw2y.cm5.cnkuaishou.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82%20%E7%A7%BB%E5%8A%A8
 trojan://8815622e-7598-11ef-a01c-f23c913c8d2b@6fa2a6f6-sytz40-sz578n-1pw2y.cm5.cnkuaishou.com:21233?allowInsecure=0&sni=6fa2a6f6-sytz40-sz578n-1pw2y.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
-trojan://8815622e-7598-11ef-a01c-f23c913c8d2b@6fa2a6f6-sytz40-sz578n-1pw2y.cm5.cnkuaishou.com:21233?security=tls&sni=6fa2a6f6-sytz40-sz578n-1pw2y.cm5.cnkuaishou.com#⚡ b2n.ir/v2ray-configs | 813
-trojan://8r<[9'l6hAO#🔥Join+Telegram:@Farah_VPN🟣
-trojan://9d80dd14-ac44-11ee-a116-f23c9164ca5d@04000a76-sytz40-tb74a6-1q9g2.cm5.cnkuaishou.com:27235?allowInsecure=0#_%E4%B8%AD%E5%9B%BD
-trojan://9d80dd14-ac44-11ee-a116-f23c9164ca5d@04000a76-sytz40-tb74a6-1q9g2.cm5.cnkuaishou.com:27235?allowInsecure=0#🔥Join+Telegram:@Farah_VPN🟣
+trojan://8Xp9lXCvvR0z@support.sabapardaziran.ir:2053?security=tls&sni=support.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=support.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#5
+trojan://8Xp9lXCvvR0z@support.sabapardaziran.ir:2053?security=tls&sni=support.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=support.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#🔥Join+Telegram:@Farah_VPN🟣
+trojan://8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9@a816f4d2-sytz40-t14dgl-duku.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=a816f4d2-sytz40-t14dgl-duku.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9@a816f4d2-sytz40-t14dgl-duku.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=a816f4d2-sytz40-t14dgl-duku.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
+trojan://91df5a86-fcdd-11ef-94aa-f23c913c8d2b@1a95a158-sxr340-tbnk1n-ueq.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=1a95a158-sxr340-tbnk1n-ueq.cm5.cnkuaishou.com#%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82+%E7%A7%BB%E5%8A%A8
+trojan://91df5a86-fcdd-11ef-94aa-f23c913c8d2b@1a95a158-sxr340-tbnk1n-ueq.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=1a95a158-sxr340-tbnk1n-ueq.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://91df5a86-fcdd-11ef-94aa-f23c913c8d2b@1a95a158-sxr340-tbnk1n-ueq.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=1a95a158-sxr340-tbnk1n-ueq.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
+trojan://9cc3c03e-21fd-11ee-a642-f23c91369f2d@4fe73dfc-sytz40-t80cbx-1k0yf.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=4fe73dfc-sytz40-t80cbx-1k0yf.cm5.cnkuaishou.com#%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82+%E7%A7%BB%E5%8A%A8
+trojan://9cc3c03e-21fd-11ee-a642-f23c91369f2d@4fe73dfc-sytz40-t80cbx-1k0yf.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=4fe73dfc-sytz40-t80cbx-1k0yf.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://9cc3c03e-21fd-11ee-a642-f23c91369f2d@4fe73dfc-sytz40-t80cbx-1k0yf.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=4fe73dfc-sytz40-t80cbx-1k0yf.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir:2087?type=grpc&serviceName=&authority=&security=tls&fp=&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
 trojan://@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir:8443?security=tls&alpn=h3,h2,http/1.1&host=ru2.asc-sam.ir&headerType=http&fp=chrome&type=tcp&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
 trojan://@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir:8443?type=tcp&path=/&host=ru2.asc-sam.ir&headerType=http&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
@@ -76,32 +65,47 @@ trojan://TurbooServer@turbooserver.aftabz.com:8080?security=reality&pbk=MlCxfES5
 trojan://V_kT5VVzTK4gfCCxQipNAA@server2.cactusrobot.ir:8608?security=none&amp;headerType=http&amp;type=tcp#%F0%9F%A7%9F+%7C+8185
 trojan://V_kT5VVzTK4gfCCxQipNAA@server2.cactusrobot.ir:8608?security=none&amp;headerType=http&amp;type=tcp#🔥Join+Telegram:@Farah_VPN🟣
 trojan://Xa4^l(;.;B#🔥Join+Telegram:@Farah_VPN🟣
+trojan://YU65ZmfhrTCo@mizban.sabapardaziran.ir:2083?security=tls&sni=mizban.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=httpupgrade&host=mizban.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#3
+trojan://YU65ZmfhrTCo@mizban.sabapardaziran.ir:2083?security=tls&sni=mizban.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=httpupgrade&host=mizban.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#🔥Join+Telegram:@Farah_VPN🟣
 trojan://ZqS3Lxamkh@ru2.asc-sam.ir:2087?type=grpc&serviceName=&authority=&security=tls&fp=&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
-trojan://a09766f3-c351-414e-92ec-9add65564835@iepl01.tube-cat.com:20081?allowInsecure=0&sni=VN.catxstar.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E4%BD%9B%E5%B1%B1%E5%B8%82%20%E7%94%B5%E4%BF%A1
-trojan://a09766f3-c351-414e-92ec-9add65564835@iepl01.tube-cat.com:20081?allowInsecure=0&sni=VN.catxstar.com#⚡ b2n.ir/v2ray-configs | 819
-trojan://a09766f3-c351-414e-92ec-9add65564835@iepl01.tube-cat.com:20081?allowInsecure=0&sni=VN.catxstar.com#🔥Join+Telegram:@Farah_VPN🟣
-trojan://a698c4a6-c3c9-11ee-9693-f23c91cfbbc9@274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com:27235?security=tls#⚡ b2n.ir/v2ray-configs | 816
-trojan://acfef609-b3c7-4e52-b292-8921d5fca90d@ca-full.privateip.net:443?security=tls#⚡ b2n.ir/v2ray-configs | 224
-trojan://b17fe152-2615-4fe1-b80e-3c61b557481d@v02.gutingting.com:30051?security=tls&sni=v2vn01.fuqiangren.com#⚡ b2n.ir/v2ray-configs | 662
-trojan://b57f94c6-7385-47f7-9c8a-55de6098bd2b@zzjp01.fuqiangren.com:20220?security=tls#⚡ b2n.ir/v2ray-configs | 522
+trojan://a2313fba-74a6-11ed-a8bf-f23c91cfbbc9@452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://a2313fba-74a6-11ed-a8bf-f23c91cfbbc9@452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
+trojan://afpaxz616xJk@support.sabapardaziran.ir:2053?security=tls&sni=support.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=support.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#6
+trojan://afpaxz616xJk@support.sabapardaziran.ir:2053?security=tls&sni=support.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=support.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#🔥Join+Telegram:@Farah_VPN🟣
+trojan://b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9@c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com:27235?allowInsecure=0#%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82+%E7%A7%BB%E5%8A%A8
+trojan://b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9@c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com:27235?allowInsecure=0#_%E4%B8%AD%E5%9B%BD
+trojan://b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9@c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com:27235?allowInsecure=0#🔥Join+Telegram:@Farah_VPN🟣
+trojan://bIma0umP5Uww@support.sabapardaziran.ir:2053?security=tls&sni=support.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=support.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#4```
+trojan://bIma0umP5Uww@support.sabapardaziran.ir:2053?security=tls&sni=support.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=support.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#🔥Join+Telegram:@Farah_VPN🟣
+trojan://bcc58e88-e147-11ec-b286-f23c91cfbbc9@83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com:21233?allowInsecure=0&sni=83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com#%E6%97%A5%E6%9C%9F%EF%BC%9A07-03
+trojan://bcc58e88-e147-11ec-b286-f23c91cfbbc9@83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com:21233?allowInsecure=0&sni=83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://bpb-trojan@www.vpslook.com:443?path=%2Ftr%3Fed%3D2560&amp;security=tls&amp;alpn=h3&amp;host=bpb-hd.aaronchin.xyz&amp;fp=randomized&amp;type=ws&amp;sni=bpb-hd.aaronchin.xyz#Telegram%20%3A%20%40vless_vmess
 trojan://bpb-trojan@www.vpslook.com:443?path=%2Ftr%3Fed%3D2560&amp;security=tls&amp;alpn=h3&amp;host=bpb-hd.aaronchin.xyz&amp;fp=randomized&amp;type=ws&amp;sni=bpb-hd.aaronchin.xyz#🔥Join+Telegram:@Farah_VPN🟣
-trojan://cd41b9d7-df15-46ad-a778-257b0851525a@de01.trojanyyds.xyz:443?security=tls#⚡ b2n.ir/v2ray-configs | 1
-trojan://ceaea123-1b4b-469b-8358-bcd5f5529305@uk.liangyuandian.top:443?security=tls#⚡ b2n.ir/v2ray-configs | 200
-trojan://d4bdfc72-7f0c-4ff0-aa4d-3530736f4088@sg-full.privateip.net:443?security=tls#⚡ b2n.ir/v2ray-configs | 961
+trojan://c12015ed-e211-3e2a-8a1e-f39fd09976b8@gy.58n.net:33323?allowInsecure=1&sni=z261.hongkongnode.top#🔥Join+Telegram:@Farah_VPN🟣
+trojan://d6abdbda-fe9d-11ec-bb74-f23c9164ca5d@8dec597f-sytz40-td95qh-1isea.cm5.cnkuaishou.com:15234?allowInsecure=0&sni=8dec597f-sytz40-td95qh-1isea.cm5.cnkuaishou.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82%20%E7%A7%BB%E5%8A%A8
+trojan://d6abdbda-fe9d-11ec-bb74-f23c9164ca5d@8dec597f-sytz40-td95qh-1isea.cm5.cnkuaishou.com:15234?allowInsecure=0&sni=8dec597f-sytz40-td95qh-1isea.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://dQUWbcwECl@automq4-proxy.automq-sg.com:443?security=tls#%F0%9F%87%B8%F0%9F%87%ACSG-20.191.138.47-0325
-trojan://e2afc128-ca51-39b6-897c-eb2649825df9@yn-zf.jiashumao.net:40375?security=tls#⚡ b2n.ir/v2ray-configs | 677
+trojan://e03df6fc-97e8-11ee-be7f-f23c9164ca5d@e31fce6f-sytz40-tic0lj-1o6fm.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=e31fce6f-sytz40-tic0lj-1o6fm.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://e03df6fc-97e8-11ee-be7f-f23c9164ca5d@e31fce6f-sytz40-tic0lj-1o6fm.cm5.cnkuaishou.com:27231?allowInsecure=0&sni=e31fce6f-sytz40-tic0lj-1o6fm.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
+trojan://e3217bc2-061f-11f0-90e2-f23c913c8d2b@fc11e598-sytz40-sz57e5-1tk5u.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=fc11e598-sytz40-sz57e5-1tk5u.cm5.cnkuaishou.com#%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82+%E7%A7%BB%E5%8A%A8
+trojan://e3217bc2-061f-11f0-90e2-f23c913c8d2b@fc11e598-sytz40-sz57e5-1tk5u.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=fc11e598-sytz40-sz57e5-1tk5u.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://e3217bc2-061f-11f0-90e2-f23c913c8d2b@fc11e598-sytz40-sz57e5-1tk5u.cm5.cnkuaishou.com:27233?allowInsecure=0&sni=fc11e598-sytz40-sz57e5-1tk5u.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
+trojan://ee1b9e94-9b95-11ef-8967-f23c91cfbbc9@0a59c814-sytz40-sz052u-amya.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=0a59c814-sytz40-sz052u-amya.cm5.cnkuaishou.com#%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%95%E5%A4%B4%E5%B8%82+%E7%A7%BB%E5%8A%A8
+trojan://ee1b9e94-9b95-11ef-8967-f23c91cfbbc9@0a59c814-sytz40-sz052u-amya.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=0a59c814-sytz40-sz052u-amya.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://ee1b9e94-9b95-11ef-8967-f23c91cfbbc9@0a59c814-sytz40-sz052u-amya.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=0a59c814-sytz40-sz052u-amya.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
+trojan://fc5ba91a-acd7-11ef-97e0-f23c9164ca5d@84118cf6-sytz40-t917sa-12ach.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=84118cf6-sytz40-t917sa-12ach.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://fc5ba91a-acd7-11ef-97e0-f23c9164ca5d@84118cf6-sytz40-t917sa-12ach.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=84118cf6-sytz40-t917sa-12ach.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
+trojan://fd224a6c-addc-11ed-a8bf-f23c91cfbbc9@05113786-sytz40-szxai8-1ldl3.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=05113786-sytz40-szxai8-1ldl3.cm5.cnkuaishou.com#_%E4%B8%AD%E5%9B%BD
+trojan://fd224a6c-addc-11ed-a8bf-f23c91cfbbc9@05113786-sytz40-szxai8-1ldl3.cm5.cnkuaishou.com:14234?allowInsecure=0&sni=05113786-sytz40-szxai8-1ldl3.cm5.cnkuaishou.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://n68d;b7:uj%XzEiq@do-itforyou-79s.pages.dev:443?security=tls&sni=do-itfORYOU-79S.PageS.dEV&fp=chrome&alpn=http/1.1&type=ws&path=/trlYkTsPO6oPJ3qIrY?ed=2560#🔥Join+Telegram:@Farah_VPN🟣
-trojan://oIwjHDXpKePvYIg8@myvps.lol:443?security=tls&sni=myvps.lol#⚡ b2n.ir/v2ray-configs | 532
 trojan://qhUHdUAoU0@v2hacknashid.iliatalebi.sbs:4433?type=tcp&security=none#🔥Join+Telegram:@Farah_VPN🟣
 trojan://trojan@www.digitalocean.com:443?path=/?ed=2560&security=tls&host=azadnet-9ya.pages.dev&fp=chrome&type=ws&sni=azadnet-9ya.pages.dev#🔥Join+Telegram:@Farah_VPN🟣
-trojan://trojan@www.visa.com.sg:8443?security=tls&type=ws&host=longwanghen.pages.dev&sni=longwanghen.pages.dev&fp=random&path=%2F%3Fed%3D2560#👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.44ms`
-trojan://trojan@www.visa.com.sg:8443?security=tls&type=ws&host=longwanghen.pages.dev&sni=longwanghen.pages.dev&fp=random&path=%2F%3Fed%3D2560#🔥Join+Telegram:@Farah_VPN🟣
 trojan://vip@iplocation.io:443?encryption=none&security=tls&sni=heihu880.pages.dev&type=ws&host=heihu880.pages.dev&path=/?ed=2560#🔥Join+Telegram:@Farah_VPN🟣
-trojan://vip@singapore.com:443?encryption=none&security=tls&sni=heihu880.pages.dev&type=ws&host=heihu880.pages.dev&path=%2F%3Fed%3D2560#👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:2.47ms`
-trojan://vip@singapore.com:443?encryption=none&security=tls&sni=heihu880.pages.dev&type=ws&host=heihu880.pages.dev&path=%2F%3Fed%3D2560#🔥Join+Telegram:@Farah_VPN🟣
 trojan://vip@singapore.com:443?encryption=none&security=tls&sni=heihu880.pages.dev&type=ws&host=heihu880.pages.dev&path=/?ed=2560#🔥Join+Telegram:@Farah_VPN🟣
-trojan://vip@time.is:2087?encryption=none&security=tls&sni=heihu880.pages.dev&type=ws&host=heihu880.pages.dev&path=/?ed=2560#🔥Join+Telegram:@Farah_VPN🟣
 trojan://vip@www.udemy.com:443?encryption=none&security=tls&sni=heihu880.pages.dev&type=ws&host=heihu880.pages.dev&path=/?ed=2560#🔥Join+Telegram:@Farah_VPN🟣
+trojan://w7W87OpV9ysD@mizban.sabapardaziran.ir:2083?security=tls&sni=mizban.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=httpupgrade&host=mizban.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#2
+trojan://w7W87OpV9ysD@mizban.sabapardaziran.ir:2083?security=tls&sni=mizban.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=httpupgrade&host=mizban.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#🔥Join+Telegram:@Farah_VPN🟣
 trojan://wPslQ6KBJN@wivip.dtsazino.com:443?security=tls&headerType=none&type=tcp&sni=wivip.dtsazino.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://xxoo@us.blazeppn.info:443?security=tls&sni=us.blazeppn.info#%F0%9F%87%BA%F0%9F%87%B8US-138.197.5.103-0994
+trojan://zJ4A1QlNTB9K@mizban.sabapardaziran.ir:2083?security=tls&sni=mizban.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=httpupgrade&host=mizban.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#1```
+trojan://zJ4A1QlNTB9K@mizban.sabapardaziran.ir:2083?security=tls&sni=mizban.sabapardaziran.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=httpupgrade&host=mizban.sabapardaziran.ir&path=%2F%F0%9F%86%94%40M3HDIO1#🔥Join+Telegram:@Farah_VPN🟣
