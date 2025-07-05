@@ -17,7 +17,6 @@ hysteria2://3r6PBKy5DX@p1.3dfigures.ir:501?insecure=1&obfs=salamander&obfs-passw
 hysteria2://467f2940-77cd-11ee-b5ed-f23c9164ca5d@898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net:8443?sni=898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8103%20%7C%20%203.2MB/s
 hysteria2://48c1e014-28d6-11ec-a0fc-f23c913c8d2b@3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net:8443?sni=3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B882%20%7C%20%201.3MB/s
 hysteria2://4a7f880c-72f4-11ed-b0b5-f23c9164ca5d@6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net:8443?sni=6be32764-sw3ts0-t6ouc9-13xtu.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8108%20%7C%20%201.4MB/s
-hysteria2://5f81e5a7-8362-4af4-b688-81241c3a4c51@pro.moon-night.ir:42820?insecure=1&sni=speedtest.net&obfs=salamander&obfs-password=nZ1fJMEpOR41WvXM4p98ryGE#All%20%20%40Cook_Vpn
 hysteria2://607d365e-7ea1-11ee-95e9-f23c913c8d2b@69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net:8443?sni=69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8104%20%7C%20%202.1MB/s
 hysteria2://607d365e-7ea1-11ee-95e9-f23c913c8d2b@ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net:8443?sni=ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8109%20%7C%20%203.2MB/s
 hysteria2://6e9cdc20-b92a-11ef-973a-f23c913c8d2b@6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net:8443?sni=6b99ff62-svy9s0-sww7b0-1qwp5.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8120%20%7C%20%201.4MB/s
