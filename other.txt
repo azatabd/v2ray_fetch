@@ -29,22 +29,17 @@ hysteria2://Godwhat.PLMoknyourmain33446@knock.zone1.center:443?insecure=0&obfs=s
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:35200?insecure=0&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#%20vpnowl%40
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?insecure=0&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#%20vpnowl%40%20%231
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36400?insecure=0&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#%20vpnowl%40%20%232
-hysteria2://abc123-4567-7890-1234-5678abcdef12@surfboardv2ray.ir:443?sni=www.speedtest.net#%40Filter_breaker%20%7C%20%20NA
 hysteria2://b778e4ae-1458-11ec-a8bf-f23c91cfbbc9@f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net:8443?insecure=0&sni=f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B888%20%7C%20%201.1MB/s
-hysteria2://bcd234-5678-8901-2345-6789abcdef23@surfboardv2ray.ir:9443?sni=www.speedtest.net#%40Filter_breaker%20%7C%20%20NA%20%231
 hysteria2://be81e21d-02d8-4a60-a07e-c2202a50a549@yjjdhl.yunjijd.xyz:26923?insecure=1&sni=yjjdhl.yunjijd.xyz#Channel%20id%3A%20%40ShadowProxy66%20
-hysteria2://c0d1e2f3-a4b5-6789-f012-6789012345op@4n0nymou3.ir:9445?sni=www.speedtest.net#%40Filter_breaker%20%7C%20%20NA%20%232
+hysteria2://c0d1e2f3-a4b5-6789-f012-6789012345op@4n0nymou3.ir:9445?sni=www.speedtest.net#%40Filter_breaker%20%7C%20%20NA
 hysteria2://c2b58ae0-d21c-11ef-b414-f23c91cfbbc9@638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net:8443?sni=638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8119%20%7C%20%201.2MB/s
-hysteria2://cde345-6789-9012-3456-7890abcdef34@javidnamaniran.ir:443?sni=www.speedtest.net#%40Filter_breaker%20%7C%20%20NA%20%233
 hysteria2://dec336f6-e5da-40f4-a4de-986c7b34d587@fr4.eyucdn.xyz:2056?insecure=1&sni=fr4.eyucdn.xyz#IRAN%204%20%28%40Outline_Vpn%29
 hysteria2://dongtaiwang.com@hy2-1.694463.xyz:4489?insecure=1&fp=&sni=www.bing.com&obfs=&obfs-password=#%F0%9F%87%AB%F0%9F%87%B71%20%7C%20%203.4MB/s%7C15%25%7COpenai
-hysteria2://e3975a05-b89e-11ec-a50d-f23c91cfbbc9@d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net:8443?sni=d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8105%20%7C%20%202.9MB/s
+hysteria2://e3975a05-b89e-11ec-a50d-f23c91cfbbc9@d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net:8443?insecure=1&sni=d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net#%40V2aryng_vpn%20%236
 hysteria2://e8a960d8-14f5-11ec-a0fc-f23c913c8d2b@ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net:8443?sni=ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8100%20%7C%20%201.3MB/s
-hysteria2://e8f9a0b1-c2d3-4567-f012-6789012345wx@4n0nymou3.ir:9446?sni=www.speedtest.net#%40Filter_breaker%20%7C%20%20NA%20%235
+hysteria2://e8f9a0b1-c2d3-4567-f012-6789012345wx@4n0nymou3.ir:9446?sni=www.speedtest.net#%40Filter_breaker%20%7C%20%20NA%20%231
 hysteria2://f70ff140-9c4e-44d3-8864-f336d7607d7e@jp.xn--mes91t7ofgnw.com:20252?insecure=1&sni=jp.xn--mes91t7ofgnw.com#%E2%9A%A1%EF%B8%8F%20%40vpnserverrr%20%28Hysteria%29
-hysteria2://g7b8c9d0-e1f2-3456-f012-6789012345hi@4n0nymou3.ir:9444?sni=www.speedtest.net#%40Filter_breaker%20%7C%20%20NA%20%237
-ssr://MTUwLjEwNy40Ni4yMTo4MDgzOm9yaWdpbjphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6YVVaeGJucFRjMk5PLz9vYmZzcGFyYW09JnJlbWFya3M9OEolMkJIcmZDZmg3QklTeTB4TlRBdU1UQTNMalEyTGpJeExUVXhPVFElM0QmcHJvdG9wYXJhbT0=
-ssr://NjIuMTAwLjIwNS40ODo5ODk6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOlpqaG1OMkZEZW1OUVMySnpSamh3TXc9PS8/b2Jmc3BhcmFtPSZyZW1hcmtzPThKJTJCSHJQQ2ZoNmRIUWkwMk1pNHhNREF1TWpBMUxqUTRMVFE1T0RBJTNEJnByb3RvcGFyYW09
+ssr://MTUwLjEwNy40Ni4yMTo4MDgzOm9yaWdpbjphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6YVVaeGJucFRjMk5PLz9vYmZzcGFyYW09JnJlbWFya3M9OEolMkJIcmZDZmg3QklTeTB4TlRBdU1UQTNMalEyTGpJeExUQTBNVFElM0QmcHJvdG9wYXJhbT0=
 ssr://anAtYW00OC02LmVxbm9kZS5uZXQ6ODA4MTpvcmlnaW46YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOlpVRnZhMkpoUkU0Mi8/b2Jmc3BhcmFtPSZyZW1hcmtzPThKJTJCSHIlMkZDZmg3VktVQzAxTWk0Mk9TNHhNQzR5TkMweE1EYzMmcHJvdG9wYXJhbT0=
 warp://@auto/?ifp=1-3&ifpm=h04FA0A#Warp3 🇮🇷&&detour=warp://@auto/?ifp=1-3&ifpm=h04FA0A#WarpInWarp 🇩🇪
 warp://auto/?ifp=10-20&ifps=10-20&ifpd=1-2&ifpm=m4#WarpInWarp ⭐️&&detour=warp://auto#Warp 🇮🇷
