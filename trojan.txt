@@ -4,21 +4,17 @@ trojan://06e4425e-a8cb-4b63-929f-2105604ab0a9@www.ddwhm.com:443?sni=nk.ylka.dpdn
 trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@q2.46322416.xyz:20220?allowInsecure=0&sni=cdn.alibaba.com#_%E4%B8%AD%E5%9B%BD
 trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@q2.46322416.xyz:20220?allowInsecure=0&sni=cdn.alibaba.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@q2.46322416.xyz:20220?allowInsecure=1&sni=cdn.alibaba.com#%E9%A6%99%E6%B8%AF6%7C%40ripaojiedian
-trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@q2.46322416.xyz:20220?allowInsecure=1&sni=cdn.alibaba.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%B9%BF%E5%B7%9E%E5%B8%82%20%E7%94%B5%E4%BF%A1
 trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@q2.46322416.xyz:20220?allowInsecure=1&sni=cdn.alibaba.com#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF6%7C%40ripaojiedian
 trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@q2.46322416.xyz:20220?allowInsecure=1&sni=cdn.alibaba.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@q2.46322416.xyz:20220?sni=cdn.alibaba.com#%F0%9F%87%AD%F0%9F%87%B0HK%E9%A6%99%E6%B8%AF4
 trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@q2.46322416.xyz:20220?sni=cdn.alibaba.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@unify.46322416.xyz:60073?allowInsecure=0&sni=cdn.alibaba.com#_%E4%B8%AD%E5%9B%BD
 trojan://0b9c9261-7209-4dcc-b268-2fa74f6cd536@unify.46322416.xyz:60073?allowInsecure=0&sni=cdn.alibaba.com#🔥Join+Telegram:@Farah_VPN🟣
-trojan://1PvCIrxP6l@ru2.asc-sam.ir:8443?type=tcp&path=/@NoForcedHeavan@NoForcedHeavan@NoForcedHeavan@NoForcedHeavan@NoForcedHeavan&host=ru2.asc-sam.ir&headerType=http&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
-trojan://1a8EBLaDBL@ru2.asc-sam.ir:443?type=xhttp&path=/@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven&host=&mode=auto&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@hk03.trojanyyds.xyz:443?security=tls&amp;sni=hk03.trojanyyds.xyz&amp;type=tcp&amp;headerType=none#%E5%85%B3%E6%B3%A8%E9%A2%91%E9%81%93https%3A%2F%2Ft.me%2Fmftizi
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@hk03.trojanyyds.xyz:443?security=tls&amp;sni=hk03.trojanyyds.xyz&amp;type=tcp&amp;headerType=none#🔥Join+Telegram:@Farah_VPN🟣
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@sg02.trojanyyds.xyz:443?security=tls&amp;type=tcp&amp;headerType=none#%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0%E8%8A%82%E7%82%B9%40mftizi
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@sg02.trojanyyds.xyz:443?security=tls&amp;type=tcp&amp;headerType=none#🔥Join+Telegram:@Farah_VPN🟣
 trojan://254aa898-bc2a-4ec8-87d1-9f5d37658f6c@spkr.1234567890spcloud.com:443?security=tls&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
-trojan://344ObcMIAb@ru2.asc-sam.ir:443?type=xhttp&path=/@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven&host=&mode=auto&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
 trojan://3817daf8-0f2b-412f-b87b-3efa585423e8@us2.vpn.ong:443?security=tls&headerType=none&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
 trojan://4deefa4b-349d-4db8-be3c-d4d61c862718@sg006.421421.xyz:20230?encryption=none&security=tls&sni=421421.xyz&type=ws&path=/#🔥Join+Telegram:@Farah_VPN🟣
 trojan://4ea1d07c-41c2-42b5-954d-414fee051856@df.xiguajiasu.xyz:46002#%F0%9F%87%A8%F0%9F%87%B3_CN_%E4%B8%AD%E5%9B%BD_15
@@ -30,6 +26,20 @@ trojan://512d9674-db12-44ca-a1b5-654244549b65@cccvffgty.444752.xyz:443?sni=cccvf
 trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?security=tls&amp;sni=mmbiz10.redapricotcloud.com&amp;type=tcp&amp;headerType=none#%E5%85%8D%E8%B4%B9%E6%A2%AF%E5%AD%90https%3A%2F%2Ft.me%2Fmftizi
 trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?security=tls&amp;sni=mmbiz10.redapricotcloud.com&amp;type=tcp&amp;headerType=none#🔥Join+Telegram:@Farah_VPN🟣
 trojan://5d499973-9b33-3919-8424-27d2460b074b@gy.58n.net:20298?allowInsecure=1&sni=z298.hongkongnode.top#🔥Join+Telegram:@Farah_VPN🟣
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-bgp.jifeng.click:23501?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#👉🆔@v2ray_configs_pool📡🇭🇰®️Hong Kong©️Hong Kong🅿️ping:210.16ms`
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-bgp.jifeng.click:23501?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-bgp.jifeng.click:23503?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#👉🆔@v2ray_configs_pool📡🇭🇰®️Hong Kong©️Hong Kong🅿️ping:210.42ms`
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-bgp.jifeng.click:23503?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-bgp.jifeng.click:23517?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#👉🆔@v2ray_configs_pool📡🇭🇰®️Hong Kong©️Hong Kong🅿️ping:210.16ms`
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-bgp.jifeng.click:23517?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-bgp.jifeng.click:23526?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#👉🆔@v2ray_configs_pool📡🇭🇰®️Hong Kong©️Hong Kong🅿️ping:196.2ms`
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-bgp.jifeng.click:23526?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-lepl.jifeng.click:23523?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Los Angeles🅿️ping:153.76ms`
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-lepl.jifeng.click:23523?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-lepl.jifeng.click:23524?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Los Angeles🅿️ping:151.5ms`
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-lepl.jifeng.click:23524?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-lepl.jifeng.click:23525?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Los Angeles🅿️ping:153.67ms`
+trojan://5d647d23-e142-47aa-8553-a08d78a0f4d3@a-lepl.jifeng.click:23525?security=tls&sni=cn.bing.com&allowInsecure=1&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
 trojan://62f4b944-1a6c-4203-a73e-be5de8da84bf@a-bgp.jifeng.click:23501?sni=cn.bing.com#%F0%9F%87%BA%F0%9F%87%B8US%E7%BE%8E%E5%9B%BD28
 trojan://62f4b944-1a6c-4203-a73e-be5de8da84bf@a-bgp.jifeng.click:23501?sni=cn.bing.com#🔥Join+Telegram:@Farah_VPN🟣
 trojan://62f4b944-1a6c-4203-a73e-be5de8da84bf@a-bgp.jifeng.click:23503?sni=cn.bing.com#%F0%9F%87%BA%F0%9F%87%B8US%E7%BE%8E%E5%9B%BD31
@@ -83,12 +93,6 @@ trojan://63db084a-e2ce-46db-9dd6-d4ed2c3d2663@sg01.freeflyingcloud.xyz:35702?sni
 trojan://77G4g4apO0@x8-sweden-amazon-v2-cf9yw.devefun.org:1935?security=tls&headerType=none&type=tcp&sni=x8-sweden-amazon-v2-cf9yw.devefun.org#🔥Join+Telegram:@Farah_VPN🟣
 trojan://7c58bf11-9175-46d1-accf-e1883bf0d5f8@svip.88de.hongxingdl.vip:28721?security=tls&amp;sni=mmbiz1.redapricotcloud.com&amp;type=tcp&amp;headerType=none#%E4%B8%8D%E5%AE%9A%E6%9C%9F%E6%8A%BD%E5%A5%96https%3A%2F%2Ft.me%2Fmftizi
 trojan://7c58bf11-9175-46d1-accf-e1883bf0d5f8@svip.88de.hongxingdl.vip:28721?security=tls&amp;sni=mmbiz1.redapricotcloud.com&amp;type=tcp&amp;headerType=none#🔥Join+Telegram:@Farah_VPN🟣
-trojan://@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir:2087?type=grpc&serviceName=&authority=&security=tls&fp=&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
-trojan://@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir:8443?security=tls&alpn=h3,h2,http/1.1&host=ru2.asc-sam.ir&headerType=http&fp=chrome&type=tcp&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
-trojan://@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir:8443?type=tcp&path=/&host=ru2.asc-sam.ir&headerType=http&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
-trojan://@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir:443?type=xhttp&path=/@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven&host=&mode=auto&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
-trojan://@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@ru2.asc-sam.ir:8443?type=tcp&path=/&host=ru2.asc-sam.ir&headerType=http&security=tls&fp=chrome&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
-trojan://AdPYCBfMUM@ru2.asc-sam.ir:443?type=tcp&security=reality&pbk=f_av3K6BFEs9abRaFgPJMKHz4ElZP7BP34ZlRtxysQ0&fp=chrome&sni=journalofbigdata.springeropen.com&sid=109cb5faeb6b&spx=/yethePcHjaf#🔥Join+Telegram:@Farah_VPN🟣
 trojan://E]5p#🔥Join+Telegram:@Farah_VPN🟣
 trojan://TurbooServer@turbooserver.aftabz.com:8080?security=reality&headerType=none&fp=chrome&type=tcp&sni=tgju.org#🔥Join+Telegram:@Farah_VPN🟣
 trojan://TurbooServer@turbooserver.aftabz.com:8080?security=reality&pbk=MlCxfES5k6SVZz4qfrnfF516r60hVZ7izp5MvPbfYk4&headerType=none&fp=chrome&spx=/&type=tcp&sni=tgju.org&sid=d5e7#🔥Join+Telegram:@Farah_VPN🟣
@@ -96,7 +100,6 @@ trojan://TurbooServer@turbooserver.aftabz.com:8080?security=reality&pbk=MlCxfES5
 trojan://V_kT5VVzTK4gfCCxQipNAA@server2.cactusrobot.ir:8608?security=none&amp;headerType=http&amp;type=tcp#%F0%9F%A7%9F+%7C+8185
 trojan://V_kT5VVzTK4gfCCxQipNAA@server2.cactusrobot.ir:8608?security=none&amp;headerType=http&amp;type=tcp#🔥Join+Telegram:@Farah_VPN🟣
 trojan://Xa4^l(;.;B#🔥Join+Telegram:@Farah_VPN🟣
-trojan://ZqS3Lxamkh@ru2.asc-sam.ir:2087?type=grpc&serviceName=&authority=&security=tls&fp=&alpn=h3,h2,http/1.1&sni=ru2.asc-sam.ir#🔥Join+Telegram:@Farah_VPN🟣
 trojan://bpb-trojan@www.vpslook.com:443?path=%2Ftr%3Fed%3D2560&amp;security=tls&amp;alpn=h3&amp;host=bpb-hd.aaronchin.xyz&amp;fp=randomized&amp;type=ws&amp;sni=bpb-hd.aaronchin.xyz#Telegram%20%3A%20%40vless_vmess
 trojan://bpb-trojan@www.vpslook.com:443?path=%2Ftr%3Fed%3D2560&amp;security=tls&amp;alpn=h3&amp;host=bpb-hd.aaronchin.xyz&amp;fp=randomized&amp;type=ws&amp;sni=bpb-hd.aaronchin.xyz#🔥Join+Telegram:@Farah_VPN🟣
 trojan://bpb-trojan@www.vpslook.com:443?path=/tr?ed=2560&security=tls&alpn=h3&host=bpb-hd.aaronchin.xyz&fp=chrome&type=ws&sni=bpb-hd.aaronchin.xyz#🔥Join+Telegram:@Farah_VPN🟣
