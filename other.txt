@@ -11,7 +11,7 @@ error was encountered while trying to use an ErrorDocument to handle the request
 hysteria2://14bdcd31-8a9f-4cf1-8fcc-60045900357d@us.10101251.xyz:3002?insecure=0&sni=us.10101251.xyz#%F0%9F%87%BA%F0%9F%87%B869%20%7C%20%204.3MB/s%7C100%25%7CNetflix%7CO...
 hysteria2://1b9c460e-f026-11ef-b737-f23c91cfbbc9@2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net:8443?sni=2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8122%20%7C%20%201.4MB/s
 hysteria2://2ec58858-976b-11ea-82ef-f23c9164ca5d@6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net:8443?sni=6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B898%20%7C%20%201.3MB/s
-hysteria2://37d19f09-5fa4-4ad0-8484-55050b582a29@zp1.eyucdn.xyz:2056?insecure=1&sni=zp1.eyujichang.xyz#%D0%B4%D1%91%D2%A3%D0%B4%D3%99%C2%AC
+hysteria2://37d19f09-5fa4-4ad0-8484-55050b582a29@zp1.eyucdn.xyz:2056?insecure=1&sni=zp1.eyujichang.xyz#%E4%B8%9C%E4%BA%AC
 hysteria2://37d19f09-5fa4-4ad0-8484-55050b582a29@zp2.eyucdn.xyz:2056?insecure=1&sni=zp2.eyujichang.xyz#%E6%9C%AA%E5%91%BD%E5%90%8D
 hysteria2://467f2940-77cd-11ee-b5ed-f23c9164ca5d@898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net:8443?sni=898602eb-svlb40-swwn15-1phla.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8103%20%7C%20%203.2MB/s
 hysteria2://48c1e014-28d6-11ec-a0fc-f23c913c8d2b@3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net:8443?sni=3e8cbc42-svwf40-sw0dp4-3z3v.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B882%20%7C%20%201.3MB/s
