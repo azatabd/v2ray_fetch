@@ -56,7 +56,7 @@ hysteria2://AtTK3tiEA0@p1.punchline.ir:19037?insecure=1&obfs=salamander&obfs-pas
 hysteria2://AtTK3tiEA0@p1.punchline.ir:2087?insecure=1&obfs=salamander&obfs-password=bleepbloop#%40V2rayNG3%20%236
 hysteria2://AtTK3tiEA0@p1.punchline.ir:44929?insecure=1&obfs=salamander&obfs-password=bluhbluh#%40V2rayNG3%20%237
 hysteria2://Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM@sinavm.ru:8080?insecure=1&alpn=h3&sni=sinavm.ru&obfs=salamander&obfs-password=Bia-Telegram__SiNAVM-SiNAVM__Bia__SiNAVM#%F0%9F%8C%805-LI%20%7C%20%202.0MB/s%7C0%25%7COpenai
-hysteria2://Godwhat.PLMoknyourmain33446@knock.zone1.center:443?insecure=0&obfs=salamander&obfs-password=The_Sefr-salamdash#%20%40vistav2ray%20%20%20
+hysteria2://Godwhat.PLMoknyourmain33446@knock.zone1.center:443?insecure=0&obfs=salamander&obfs-password=The_Sefr-salamdash#%40Capoit
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:35000?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#Channel%20id%3A%20%40ShadowProxy66%20%231
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:35200?insecure=0&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#%40Mahdi2000_m%20ql_0365
 hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36300?insecure=0&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#%40Mahdi2000_m%20ql_0366
@@ -65,7 +65,7 @@ hysteria2://Yet-Another-Public-Config-1@yapc-1.adamhayward.co.uk:36600?insecure=
 hysteria2://a914681a-8dda-4c98-8468-c313f5539b14@sg3.eyucdn.xyz:2056?insecure=1&sni=sg3.eyucdn.xyz#%E6%9C%AA%E5%91%BD%E5%90%8D%20%233
 hysteria2://b57bbf70-8958-4ae5-b6fd-bcf39b81900c@ovo.5188666.xyz:63518?insecure=1#%E6%9C%AA%E5%91%BD%E5%90%8D%20%234
 hysteria2://b778e4ae-1458-11ec-a8bf-f23c91cfbbc9@f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net:8443?insecure=0&sni=f4b0487a-supts0-swdlq9-g53t.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B888%20%7C%20%201.1MB/s
-hysteria2://be81e21d-02d8-4a60-a07e-c2202a50a549@yjjdhl.yunjijd.xyz:26923?insecure=1&sni=yjjdhl.yunjijd.xyz#%40meli_proxyy%20%236
+hysteria2://be81e21d-02d8-4a60-a07e-c2202a50a549@yjjdhl.yunjijd.xyz:26923?insecure=1&sni=yjjdhl.yunjijd.xyz#%40meli_proxyy%20%237
 hysteria2://c2b58ae0-d21c-11ef-b414-f23c91cfbbc9@638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net:8443?sni=638bb563-sw3ts0-swwcfg-1eijl.hy2.gotochinatown.net#%F0%9F%87%BA%F0%9F%87%B8119%20%7C%20%201.2MB/s
 hysteria2://dec336f6-e5da-40f4-a4de-986c7b34d587@fr4.eyucdn.xyz:2056?insecure=1&sni=fr4.eyucdn.xyz#IRAN%204%20%28%40Outline_Vpn%29
 hysteria2://dongtaiwang.com@hy2-1.694463.xyz:4489?insecure=1&fp=&sni=www.bing.com&obfs=&obfs-password=#%F0%9F%87%AB%F0%9F%87%B71%20%7C%20%203.4MB/s%7C15%25%7COpenai
