@@ -302,7 +302,6 @@ vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@v1.dabache.top:80?encryption=none&h
 vless://392afad2-43e3-4414-a5c3-b529a44df4e3@avalpardakht.com:80?path=/%40v2rayNG_VPNN&amp%3Bsecurity=none&amp%3Bencryption=none&amp%3Bhost=7.arsalanv2.sbs&amp%3Btype=ws#%F0%9F%87%BD%F0%9F%87%BD%20XX%20%7C%20VLESS%20%7C%20%40prooxyk%20%231
 vless://392afad2-43e3-4414-a5c3-b529a44df4e3@avalpardakht.com:80?path=/%40v2rayNG_VPNN&amp%3Bsecurity=none&amp%3Bencryption=none&amp%3Bhost=7.arsalanv2.sbs&amp%3Btype=ws#🔥Join+Telegram:@Farah_VPN🟣
 vless://394f6981-a782-4779-9a85-e6cf22935d93@uk1.fromblancwithlove.com:8443?allowInsecure=1&encryption=none&security=tls&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3AGB
-vless://394f6981-a782-4779-9a85-e6cf22935d93@uk1.fromblancwithlove.com:8443?allowInsecure=1&encryption=none&security=tls&type=tcp#🇬🇧[openproxylist.com] vless-GB
 vless://394f6981-a782-4779-9a85-e6cf22935d93@uk1.fromblancwithlove.com:8443?allowInsecure=1&encryption=none&security=tls&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
 vless://3b7ec44b-66d8-4822-b772-f1f50c3fec95@data.cloudvibe.ir:8443?path=%2FR8I9Yqu0DxpQB2NKCxLA&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=data-tm189.netsnap.ir&fp=chrome&type=ws&allowInsecure=0&sni=data-tm189.netsnap.ir#%F0%9F%87%B9%F0%9F%87%B7%20WS-TLS%20%7C%20%40Express_alaki%20%7C%20src%20%40ConfigV2rayNG
 vless://3b7ec44b-66d8-4822-b772-f1f50c3fec95@data.cloudvibe.ir:8443?path=%2FR8I9Yqu0DxpQB2NKCxLA&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=data-tm189.netsnap.ir&fp=chrome&type=ws&allowInsecure=0&sni=data-tm189.netsnap.ir#⚡ b2n.ir/v2ray-configs | 735
@@ -1201,7 +1200,6 @@ vless://be0bff33-a095-4f82-9edb-9073c3ba08af@arvan1.un1ty.ir:80?path=/jesuschris
 vless://bef26f50-251e-454f-b25f-40f64eae3b80@trex.nahidapp.com:443?path=/vless-ws&security=tls&encryption=none&insecure=0&host=trex.nahidapp.com&fp=chrome&type=ws&allowInsecure=0&sni=trex.nahidapp.com#Psiphon--@V2rayAlpha-3
 vless://bef26f50-251e-454f-b25f-40f64eae3b80@trex.nahidapp.com:443?path=/vless-ws&security=tls&encryption=none&insecure=0&host=trex.nahidapp.com&fp=chrome&type=ws&allowInsecure=0&sni=trex.nahidapp.com#🔥Join+Telegram:@Farah_VPN🟣
 vless://bf263367-bb63-4663-b4a1-34946107a72e@gr-1.illusion-proxy.ru:443?security=reality&encryption=none&pbk=I-ltGSV73Fd08VfuP_XZ-mAAb2ZE3Ag4a_8ftaX0bz0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gr-1.illusion-proxy.ru&sid=fe28038a#🇩🇪[openproxylist.com] vless-DE
-vless://bf263367-bb63-4663-b4a1-34946107a72e@gr-1.illusion-proxy.ru:443?security=reality&encryption=none&pbk=I-ltGSV73Fd08VfuP_XZ-mAAb2ZE3Ag4a_8ftaX0bz0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gr-1.illusion-proxy.ru&sid=fe28038a#🔥Join+Telegram:@Farah_VPN🟣
 vless://bf4f7317-4ea1-d9b0-4538-9622f9af1f0d@tun.maf-fars.ir:2087?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#Telegram : @V2ynpv
 vless://bf4f7317-4ea1-d9b0-4538-9622f9af1f0d@tun.maf-fars.ir:2087?security=none&encryption=none&host=nobitex.ir&headerType=http&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
 vless://bm.boulvarmoein.shop@bm.boulvarmoein.shop:2095?path=%2FTelegram%40v2rayng_76%3D%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=bm.boulvarmoein.shop&type=ws&sni=bm.boulvarmoein.shop#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%28Aruba%20Networks%29
@@ -1559,6 +1557,8 @@ vless://f0d1336f-9283-4279-9b6d-359fb43e86bc@gfnfhyhttgbrtgbrtgbrtttyht7.arenafi
 vless://f0d1336f-9283-4279-9b6d-359fb43e86bc@gfnfhyhttgbrtgbrtgbrtttyht7.arenafile.com:33431?encryption=none&security=reality&sni=www.icloud.com&fp=chrome&pbk=DQjRDYsGHriGDOyYw4ikOCgg8fnPoK6Hw74wuio7qyk&sid=cceca309a6cd013a&type=tcp&headerType=none#🔥Join+Telegram:@Farah_VPN🟣
 vless://f1038624-e835-4884-8d8f-34b2eb8198c9@detail.barttary.ir:55802?security=none&encryption=none&headerType=none&type=tcp#@v2rayRoom
 vless://f1038624-e835-4884-8d8f-34b2eb8198c9@detail.barttary.ir:55802?security=none&encryption=none&headerType=none&type=tcp#🔥Join+Telegram:@Farah_VPN🟣
+vless://f1b31d32-0dc9-4141-9818-45a0e8dd213b@kr.baqi.indevs.in:39010?&type=ws&headerType=none&host=d0a6b4d945dbfc846b18fade7d631883.mobgslb.tbcache.com&path=%2F#🇰🇷[openproxylist.com] vless-KR
+vless://f1b31d32-0dc9-4141-9818-45a0e8dd213b@uk.baqi.indevs.in:39001?&type=ws&headerType=none&host=d0a6b4d945dbfc846b18fade7d631883.mobgslb.tbcache.com&path=%2F#🇬🇧[openproxylist.com] vless-GB
 vless://f1ca4ae2-c5ee-45d5-94ce-68634a59bd1a@th.gostargate.top:49961?security=none&allowInsecure=0&encryption=none&type=tcp&path=/&headerType=http#Neet_done👈چنل تلگراممون
 vless://f1ca4ae2-c5ee-45d5-94ce-68634a59bd1a@th.gostargate.top:49961?security=none&allowInsecure=0&encryption=none&type=tcp&path=/&headerType=http#🔥Join+Telegram:@Farah_VPN🟣
 vless://f1e6b37e-6b1b-46b0-a728-b9a58a4fb4f8@s02.farvardinecharsadopanj.shop:8080?security=none&encryption=none&type=ws#@config4k _ کانال تلگرام
