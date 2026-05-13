@@ -39,13 +39,11 @@ This repository contains automatically fetched and processed V2Ray configuration
 
 The configuration files are fetched from the following public sources:
 
-- [Barry Far V2Ray Configs](https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub1.txt)
+- [Barry Far V2Ray Configs](https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vless.txt)
 - [Epodonios V2Ray Configs](https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt)
-- [Hossein Carmany V2Ray Configs](https://raw.githubusercontent.com/hosseincarmany/v2ray-configs/main/All_Configs_Sub.txt)
 - [Nyeinkokoaung404 V2Ray Configs](https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt)
 - [Roosterkid Open Proxy List](https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt)
 - [SoliSpirit V2Ray Configs](https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt)
-- [Skywrt V2Ray Configs](https://raw.githubusercontent.com/skywrt/v2ray-configs/main/All_Configs_Sub.txt)
 - [Matin Ghanbari V2Ray Configs](https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt)
 
 The configurations are fetched, processed, and saved in different files based on their protocol type:
