@@ -30,7 +30,7 @@ blocked_domains = {
     "*.sh-cloudflare.sbs", "*.irvideo.cfd", "*.lrzdx.uk", "*.mcloudservice.site",
     "*.v2ray.motorcycles", "*.comnpmjs.com", "huffingtonpost.es", "iranserver.com", "*.ddns.net",
     "*.cloudupdate.ir", "series-a2-mec.samanehha.co", "cdn-prouk.plusmusical2.ir",
-    "cdn.netraidly.ru", "greb.loralden.com, "9sbisocj5c11.dxdx5.com", "a.pabloping.cloud",
+    "cdn.netraidly.ru", "greb.loralden.com", "9sbisocj5c11.dxdx5.com", "a.pabloping.cloud",
     "abdzgg.teemazad.com", "acv-79.privetpack.site", "adf.ly", "afrcloud22.mmv.kr",
     "ahmad-ir.3patify.com", "alait.marzban-locations.com", "all.mdvpnsec.cfd",
     "all.tellmethetrue.shop", "all.v-2rayngvpn.cfd", "amir.ancvp.ancvpp.shop",
