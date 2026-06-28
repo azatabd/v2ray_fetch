@@ -64,7 +64,7 @@ def is_valid_port(port):
     try:
         p = int(port)
         return 1 <= p <= 65535
-    except (TypeError, ValueError):
+    except:
         return False
 
 
@@ -79,8 +79,8 @@ def extract_host_and_port(config_line):
         elif config_line.startswith(("vless://", "trojan://", "ss://")):
             parsed = urlparse(config_line)
             return parsed.hostname, parsed.port
-    except Exception as e:
-        print(f"Error extracting host/port: {e}")
+    except:
+        return None, None
     return None, None
 
 
@@ -90,37 +90,32 @@ def contains_ipv6(text):
 
 def fetch_url(url):
     try:
-        response = requests.get(url, timeout=15)
-        response.raise_for_status()
-        return url, response.text
-    except Exception as e:
-        print(f"Error fetching {url}: {e}")
+        r = requests.get(url, timeout=15)
+        r.raise_for_status()
+        return url, r.text
+    except:
         return url, None
 
 
-# Fetch all URLs concurrently
+# deterministic ordering
 with ThreadPoolExecutor(max_workers=len(urls)) as executor:
-    futures = {executor.submit(fetch_url, url): url for url in urls}
-    results = [future.result() for future in as_completed(futures)]
+    results = list(executor.map(fetch_url, urls))
 
-# Process results
-for url, text in results:
-    if text is None:
+for url, text in sorted(results, key=lambda x: x[0]):
+    if not text:
         continue
 
-    for line in text.strip().splitlines():
+    for line in text.splitlines():
         line = line.strip()
         if not line or line.startswith("#") or contains_ipv6(line):
             continue
 
-        # Extract raw IPv4s regardless of domain/port status
         for ip in ip_pattern.findall(line):
             if not is_blocked_ip(ip):
                 ip_addresses.add(ip)
 
         host, port = extract_host_and_port(line)
 
-        # Skip lines with invalid or missing ports
         if not is_valid_port(port):
             continue
 
@@ -128,15 +123,12 @@ for url, text in results:
             if contains_ipv6(host) or is_blocked_domain(host):
                 continue
             try:
-                ip = ipaddress.ip_address(host)
-                if is_blocked_ip(str(ip)):
-                    continue
+                ipaddress.ip_address(host)
             except ValueError:
                 pass
 
         all_lines.add(line)
 
-# Categorize lines
 for line in sorted(all_lines):
     if line.startswith("vless://"):
         protocols['vless'].append(line)
@@ -149,17 +141,16 @@ for line in sorted(all_lines):
     else:
         protocols['other'].append(line)
 
-# Deduplicate each protocol list while preserving order
-protocols = {proto: list(dict.fromkeys(lines)) for proto, lines in protocols.items()}
+for k in protocols:
+    protocols[k] = sorted(dict.fromkeys(protocols[k]))
 
-# Save per-protocol files
 for proto, lines in protocols.items():
     with open(f"{proto}.txt", "w") as f:
         f.write("\n".join(lines) + "\n")
 
-# Save combined.txt — deduplicated across all protocols
-seen = set()
 combined = []
+seen = set()
+
 for proto in ['vless', 'vmess', 'ss', 'trojan', 'other']:
     for line in protocols[proto]:
         if line not in seen:
@@ -172,5 +163,5 @@ with open("combined.txt", "w") as f:
 with open("ip_addresses.txt", "w") as f:
     f.write("\n".join(sorted(ip_addresses)) + "\n")
 
-print(f"✅ Extracted {len(ip_addresses)} unique IPv4 addresses.")
-print(f"✅ Saved {len(combined)} unique configs total.")
+print(f"Extracted {len(ip_addresses)} IPs")
+print(f"Saved {len(combined)} configs")
