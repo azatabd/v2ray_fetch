@@ -1,16 +1,20 @@
 name: Fetch V2Ray Configurations
+
 on:
   schedule:
     - cron: "0 */6 * * *"  # Every 6 hours
-  workflow_dispatch:      # Allow manual run
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          clean: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,11 +29,12 @@ jobs:
 
       - name: Commit and push results
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add *.txt
+
           git diff --cached --quiet && echo "No changes to commit" && exit 0
+
           git commit -m "🔄 Auto-update proxies [bot]"
-          git fetch origin main
-          git rebase origin/main
-          git push origin main
+          git push
