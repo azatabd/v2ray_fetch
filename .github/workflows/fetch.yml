@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git stash
+          git stash -u
           git pull --rebase origin main
           git stash pop
           git add *.txt
