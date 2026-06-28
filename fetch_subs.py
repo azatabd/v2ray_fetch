@@ -1,4 +1,3 @@
-Claude
 import requests
 import re
 import fnmatch
