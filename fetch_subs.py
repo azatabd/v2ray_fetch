@@ -61,7 +61,6 @@ def is_blocked_ip(ip):
 
 
 def is_valid_port(port):
-    """Return True if port is an integer in [1, 65535]."""
     try:
         p = int(port)
         return 1 <= p <= 65535
@@ -70,7 +69,6 @@ def is_valid_port(port):
 
 
 def extract_host_and_port(config_line):
-    """Return (host, port) tuple or (None, None) on failure."""
     try:
         if config_line.startswith("vmess://"):
             b64 = config_line[len("vmess://"):].strip()
@@ -78,14 +76,11 @@ def extract_host_and_port(config_line):
             decoded = base64.b64decode(padded).decode()
             obj = json.loads(decoded)
             return obj.get("add"), obj.get("port")
-
         elif config_line.startswith(("vless://", "trojan://", "ss://")):
             parsed = urlparse(config_line)
             return parsed.hostname, parsed.port
-
     except Exception as e:
         print(f"Error extracting host/port: {e}")
-
     return None, None
 
 
@@ -154,17 +149,28 @@ for line in sorted(all_lines):
     else:
         protocols['other'].append(line)
 
-# Save to output files
+# Deduplicate each protocol list while preserving order
+protocols = {proto: list(dict.fromkeys(lines)) for proto, lines in protocols.items()}
+
+# Save per-protocol files
 for proto, lines in protocols.items():
     with open(f"{proto}.txt", "w") as f:
         f.write("\n".join(lines) + "\n")
 
+# Save combined.txt — deduplicated across all protocols
+seen = set()
+combined = []
+for proto in ['vless', 'vmess', 'ss', 'trojan', 'other']:
+    for line in protocols[proto]:
+        if line not in seen:
+            seen.add(line)
+            combined.append(line)
+
 with open("combined.txt", "w") as f:
-    for proto in ['vless', 'vmess', 'ss', 'trojan', 'other']:
-        f.write("\n".join(protocols[proto]) + "\n")
+    f.write("\n".join(combined) + "\n")
 
 with open("ip_addresses.txt", "w") as f:
     f.write("\n".join(sorted(ip_addresses)) + "\n")
 
 print(f"✅ Extracted {len(ip_addresses)} unique IPv4 addresses.")
-print(f"✅ Saved {sum(len(v) for v in protocols.values())} configs total.")
+print(f"✅ Saved {len(combined)} unique configs total.")
