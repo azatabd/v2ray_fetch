@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,10 +27,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git stash -u
-          git pull --rebase origin main
-          git stash pop
           git add *.txt
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "🔄 Auto-update proxies [bot]"
+          git fetch origin main
+          git rebase origin/main
           git push origin main
