@@ -25,8 +25,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add *.txt
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "🔄 Auto-update proxies [bot]"
-          git pull --rebase origin main
           git push origin main
