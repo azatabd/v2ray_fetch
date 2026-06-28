@@ -1,8 +1,8 @@
-name: Fetch V2Ray Configurations
+name: Fetch V2Ray Configurations (Cache Optimized)
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -16,6 +16,13 @@ jobs:
           fetch-depth: 0
           clean: true
 
+      # Restore previous run state (cache)
+      - name: Restore cache state
+        uses: actions/cache@v4
+        with:
+          path: state.json
+          key: v2ray-cache-state
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -27,14 +34,45 @@ jobs:
       - name: Run script
         run: python fetch_subs.py
 
+      # Compute hash of outputs
+      - name: Compute output hash
+        run: |
+          echo "Computing hash..."
+          find . -maxdepth 1 -name "*.txt" -print0 | sort -z | xargs -0 sha256sum > current_hash.txt
+          sha256sum current_hash.txt | cut -d' ' -f1 > new_state.txt
+
+      # Compare with previous state
+      - name: Check for changes
+        id: diff
+        run: |
+          if [ ! -f state.json ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          OLD=$(cat state.json)
+          NEW=$(cat new_state.txt)
+
+          if [ "$OLD" = "$NEW" ]; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      # Commit only if changed
       - name: Commit and push changes
+        if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add *.txt
 
-          git diff --cached --quiet && exit 0
+          git commit -m "🔄 Auto-update proxies (cache diff)"
 
-          git commit -m "🔄 Auto-update proxies [bot]"
-          git push
+          git push origin main
+
+          cp new_state.txt state.json
+          git add state.json
+          git commit -m "📦 Update cache state"
+          git push origin main
