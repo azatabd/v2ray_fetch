@@ -38,9 +38,9 @@ explicitly_blocked_ips = {"1.1.1.1", "1.0.0.1", "8.8.8.8", "8.8.4.4", "127.0.0.1
 ip_pattern = re.compile(r'((?:\d{1,3}\.){3}\d{1,3})')
 ipv6_pattern = re.compile(r'([a-fA-F0-9:]+:+)+[a-fA-F0-9]+')
 
-all_lines = set()
-ip_addresses = set()
 protocols = {'vless': [], 'vmess': [], 'ss': [], 'trojan': [], 'other': []}
+
+seen_identity = set()  # 🔥 NEW: (UUID, domain) dedup key
 
 
 def is_blocked_domain(domain):
@@ -56,36 +56,39 @@ def is_blocked_ip(ip):
             return True
         ip_obj = ipaddress.ip_address(ip)
         return ip_obj.version == 6 or ip_obj.is_private or ip_obj.is_loopback or ip_obj.is_reserved
-    except ValueError:
+    except:
         return True
 
 
 def is_valid_port(port):
     try:
-        p = int(port)
-        return 1 <= p <= 65535
+        return 1 <= int(port) <= 65535
     except:
         return False
 
 
-def extract_host_and_port(config_line):
+def extract_v2ray_identity(config_line):
+    """
+    returns (uuid, host)
+    """
     try:
         if config_line.startswith("vmess://"):
             b64 = config_line[len("vmess://"):].strip()
             padded = b64 + "=" * (-len(b64) % 4)
             decoded = base64.b64decode(padded).decode()
             obj = json.loads(decoded)
-            return obj.get("add"), obj.get("port")
+            return obj.get("id"), obj.get("add")
+
         elif config_line.startswith(("vless://", "trojan://", "ss://")):
             parsed = urlparse(config_line)
-            return parsed.hostname, parsed.port
+            uuid = parsed.username
+            host = parsed.hostname
+            return uuid, host
+
     except:
         return None, None
+
     return None, None
-
-
-def contains_ipv6(text):
-    return bool(ipv6_pattern.search(text))
 
 
 def fetch_url(url):
@@ -97,9 +100,11 @@ def fetch_url(url):
         return url, None
 
 
-# deterministic ordering
 with ThreadPoolExecutor(max_workers=len(urls)) as executor:
     results = list(executor.map(fetch_url, urls))
+
+
+all_lines = []
 
 for url, text in sorted(results, key=lambda x: x[0]):
     if not text:
@@ -107,42 +112,42 @@ for url, text in sorted(results, key=lambda x: x[0]):
 
     for line in text.splitlines():
         line = line.strip()
-        if not line or line.startswith("#") or contains_ipv6(line):
+        if not line or line.startswith("#"):
             continue
 
-        for ip in ip_pattern.findall(line):
-            if not is_blocked_ip(ip):
-                ip_addresses.add(ip)
+        # extract identity key
+        uuid, host = extract_v2ray_identity(line)
 
-        host, port = extract_host_and_port(line)
-
-        if not is_valid_port(port):
+        if not uuid or not host:
             continue
 
-        if host:
-            if contains_ipv6(host) or is_blocked_domain(host):
-                continue
-            try:
-                ipaddress.ip_address(host)
-            except ValueError:
-                pass
+        if is_blocked_domain(host):
+            continue
 
-        all_lines.add(line)
+        # 🔥 CORE DEDUP RULE: UUID + domain
+        identity_key = (uuid, host)
+        if identity_key in seen_identity:
+            continue
 
-for line in sorted(all_lines):
-    if line.startswith("vless://"):
-        protocols['vless'].append(line)
-    elif line.startswith("vmess://"):
-        protocols['vmess'].append(line)
-    elif line.startswith("ss://"):
-        protocols['ss'].append(line)
-    elif line.startswith("trojan://"):
-        protocols['trojan'].append(line)
-    else:
-        protocols['other'].append(line)
+        seen_identity.add(identity_key)
+        all_lines.append(line)
 
-for k in protocols:
-    protocols[k] = sorted(dict.fromkeys(protocols[k]))
+        # classify
+        if line.startswith("vless://"):
+            protocols['vless'].append(line)
+        elif line.startswith("vmess://"):
+            protocols['vmess'].append(line)
+        elif line.startswith("ss://"):
+            protocols['ss'].append(line)
+        elif line.startswith("trojan://"):
+            protocols['trojan'].append(line)
+        else:
+            protocols['other'].append(line)
+
+
+# write outputs
+for proto in protocols:
+    protocols[proto] = list(dict.fromkeys(protocols[proto]))
 
 for proto, lines in protocols.items():
     with open(f"{proto}.txt", "w") as f:
@@ -160,8 +165,4 @@ for proto in ['vless', 'vmess', 'ss', 'trojan', 'other']:
 with open("combined.txt", "w") as f:
     f.write("\n".join(combined) + "\n")
 
-with open("ip_addresses.txt", "w") as f:
-    f.write("\n".join(sorted(ip_addresses)) + "\n")
-
-print(f"Extracted {len(ip_addresses)} IPs")
-print(f"Saved {len(combined)} configs")
+print(f"Saved {len(combined)} unique configs (UUID+domain dedup)")
